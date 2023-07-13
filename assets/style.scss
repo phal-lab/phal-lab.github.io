@@ -22,7 +22,7 @@ html {
 
 body {
   background: #fff;
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -system-ui,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
@@ -32,7 +32,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 1200px; //originally 740px -> I think it should be a percentage?
   padding: 0 10px;
   width: 100%;
 }
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
-  text-align: center;
+  text-align: left;
 
   @include mobile {
     line-height: 1.4;
@@ -61,6 +61,7 @@ h1 {
 
 h2 {
   font-size: 24px;
+  text-align: left;
 }
 
 @media (min-width: 769px){

@@ -1,0 +1,71 @@
+---
+layout: default
+---
+
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-image {
+  padding: 20px;
+  font-size: 30px;
+  width: 300px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  font-size: 16px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  text-align: center;
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 16px;
+  width: 210px;
+}
+</style>
+
+<article class="PI">
+  <div class="style">
+    <div class="grid-container">
+      <div class="grid-image">
+          <img loading="lazy" src="../{{page.headshot}}" alt="Profile Photo">
+      </div>
+      <div class = "grid-item">
+        {{ content }}
+        <h3>Education</h3>
+          <bl>
+            {% for item in page.education %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </bl>
+          <h3>Work Experience</h3>
+          <bl>
+            {% for item in page.work-experience %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </bl>
+        <h3>Courses Taught</h3>
+          <bl>
+            {% for item in page.courses-taught %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </bl>
+        <h3>Awards</h3>
+          <bl>
+            {% for item in page.awards %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </bl>
+      </div>
+    <br>
+  </div>
+</article>

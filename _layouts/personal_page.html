@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<style>
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-image {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+  font-size: 16px;
+}
+</style>
+
+<article class="personal_page">
+    <div class="grid-container">
+        <div class="grid-image">
+            <img loading="lazy" src="../{{page.profile_headshot}}" alt="Profile Photo" class="rounded">
+        </div>
+        <div class="grid-item">
+            <h2>{{page.name_}}</h2>
+            <br> {{content}}<br><br>
+            <a href="{{ page.linkedin_url }}" target="_blank">
+                <i class="svg-icon linkedin"></i>
+            </a>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<style>
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  text-align: center;
+}
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 16px;
+  width: 210px;
+}
+img.rounded {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+a.name {
+  color: #00264D;
+}
+</style>
+
+<article class="team">
+  <div class="style">
+    <h2>Principal Investigator</h2>
+    <div class="flex-container">
+      <div>
+        <a href="about-me" class=name>
+          <img loading="lazy" src="{{page.yamuna_headshot}}" alt="Profile Photo" class="rounded">
+          <br>
+          <b>Dr. Yamuna Phal</b>
+        </a>
+        <br>{{page.yamuna_title}}
+      </div>
+    </div>
+    <h2>Graduate Students</h2>
+    <div class="flex-container">
+      {% for member in page.grad_members %}
+        <div>
+          <a href="{{member.personal-page}}" class=name>
+            <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo" class="rounded">
+            <br>
+            <b>{{member.name}}</b>
+          </a>
+          <br>{{member.ms-phd}}
+          <br>{{member.dept}}
+        </div>
+      {% endfor %}
+    </div>
+    <h2>Undergraduate Students</h2>
+    <div class="flex-container">
+      {% for member in page.undergrad_members %}
+        <div>
+          <a href="{{member.personal-page}}" class=name>
+            <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo" class="rounded">
+            <br>
+            <b>{{member.name}}</b>
+          </a>
+          <br>{{member.dept}}
+        </div>
+      {% endfor %}
+    </div>
+    <h2>Lab Alumni</h2>
+    {{ content }}
+    </div>
+</article>
