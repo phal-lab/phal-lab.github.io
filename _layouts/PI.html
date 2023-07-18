@@ -5,13 +5,14 @@ layout: default
 <style>
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   padding: 10px;
 }
 .grid-image {
   padding: 20px;
-  font-size: 30px;
+  font-size: 18px;
   width: 300px;
+  text-align: center;
 }
 .grid-item {
   padding: 20px;
@@ -37,7 +38,14 @@ layout: default
   <div class="style">
     <div class="grid-container">
       <div class="grid-image">
-          <img loading="lazy" src="../{{page.headshot}}" alt="Profile Photo">
+        <img loading="lazy" src="../{{page.headshot}}" alt="Profile Photo">
+        <b style="font-size: 20px;">Dr. Yamuna Phal, PhD</b><br>
+        {{page.title}}<br>
+        [<a href="../{{page.cv}}" target="_blank">CV</a>] [<a href="{{page.linkedin}}" target="_blank">LinkedIn</a>]<br>
+        <div class="office">
+          Email: {{page.email}} <br>
+          Office: {{page.office}}
+        </div>
       </div>
       <div class = "grid-item">
         {{ content }}

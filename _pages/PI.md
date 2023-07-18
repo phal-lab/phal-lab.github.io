@@ -1,8 +1,12 @@
 ---
 layout: PI
-title:
+title: Assistant Professor
 permalink: team/about-me/
 headshot: Phal-Yamuna_0423.jpg
+linkedin: https://www.linkedin.com/in/yamunaphal3ab413aa/
+email: yphal[at]mines.edu
+office: 327D Brown Hall <br> 1610 Illinois St. <br> Golden, CO 80401
+cv: here.pdf
 education:
     - Ph.D. in Electrical and Computer Engineering, University of Illinois at Urbana-Champaign
     - M.S. in Electrical Engineering, California Institute of Technology
