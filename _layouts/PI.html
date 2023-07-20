@@ -5,18 +5,20 @@ layout: default
 <style>
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto auto;
   padding: 10px;
 }
 .grid-image {
   padding: 20px;
   font-size: 18px;
+  margin: 3em 0 15px;
   width: 300px;
   text-align: center;
 }
 .grid-item {
   padding: 20px;
   font-size: 30px;
+  margin: 1em 0 15px;
   text-align: left;
   font-size: 16px;
 }
@@ -32,6 +34,7 @@ layout: default
   font-size: 16px;
   width: 210px;
 }
+
 </style>
 
 <article class="PI">
@@ -39,7 +42,7 @@ layout: default
     <div class="grid-container">
       <div class="grid-image">
         <img loading="lazy" src="../{{page.headshot}}" alt="Profile Photo">
-        <b style="font-size: 20px;">Dr. Yamuna Phal, PhD</b><br>
+        <b style="font-size: 20px; color: #21314d;">Dr. Yamuna Phal, PhD</b><br>
         {{page.title}}<br>
         [<a href="../{{page.cv}}" target="_blank">CV</a>] [<a href="{{page.linkedin}}" target="_blank">LinkedIn</a>]<br>
         <div class="office">
@@ -48,6 +51,7 @@ layout: default
         </div>
       </div>
       <div class = "grid-item">
+        <h2>About Me</h2>
         {{ content }}
         <h3>Education</h3>
           <bl>

@@ -3,66 +3,73 @@ layout: default
 ---
 
 <style>
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-  text-align: center;
-}
-.flex-container > div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 16px;
-  width: 210px;
-}
-img.rounded {
-  object-fit: cover;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-}
-a.name {
-  color: #00264D;
-}
+  .grid-container {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 10px;
+  }
+  .grid-image {
+      margin: 1em 0 15px;
+      padding: 20px;
+      font-size: 30px;
+      width: 300px;
+      align-self: start;
+  }
+  .grid-text {
+      padding: 20px;
+      font-size: 16px;
+      text-align: left;
+  }
+  .button {
+      background-color: #09396c;
+      border: none;
+      color: #ffffff;
+      padding: 10px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      border-radius: 5px;
+  }
+  .bottom_grid {
+    grid-template-rows: subgrid;
+    align-self: end;
+  }
+  a.name {
+    color: #00264D;
+  }
 </style>
 
 <article class="team">
   <div class="style">
     <h2>Principal Investigator</h2>
-    <div class="flex-container">
-      <div>
-        <a href="about-me" class=name>
-          <img loading="lazy" src="{{page.yamuna_headshot}}" alt="Profile Photo" class="rounded">
-          <br>
-          <b>Dr. Yamuna Phal</b>
-        </a>
-        <br>{{page.yamuna_title}}
+    <div class="grid-container">
+      <div class="grid-image">
+        <img src="{{page.yamuna_headshot}}">
+      </div>
+      <div class="grid-text">
+        <h2>Yamuna Phal, PhD</h2>
+        {{page.yamuna_title}}<br>
+        {{page.yamuna_department}}<br><br>
+        {{page.summary}}<br><br>
+        <div class="bottom_grid">
+          <a class="button"><b>Faculty Webpage</b></a>
+          <a class="button"><b>Personal Webpage</b></a>
+        </div>
       </div>
     </div>
     <h2>Graduate Students</h2>
-    <div class="flex-container">
+    <div class="grid-container">
       {% for member in page.grad_members %}
-        <div>
-          <a href="{{member.personal-page}}" class=name>
-            <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo" class="rounded">
-            <br>
-            <b>{{member.name}}</b>
-          </a>
-          <br>{{member.ms-phd}}
-          <br>{{member.dept}}
+        <div class="grid-image">
+          <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo" class="rounded">
         </div>
-      {% endfor %}
-    </div>
-    <h2>Undergraduate Students</h2>
-    <div class="flex-container">
-      {% for member in page.undergrad_members %}
-        <div>
-          <a href="{{member.personal-page}}" class=name>
-            <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo" class="rounded">
-            <br>
-            <b>{{member.name}}</b>
-          </a>
-          <br>{{member.dept}}
+        <div class="grid-text">
+          <h2>{{member.name}}</h2>
+          {{member.ms-phd}}<br>
+          {{member.dept}}<br><br>
+          {{member.summary}}<br><br>
+          <a class="button"><b>LinkedIn</b></a>
         </div>
       {% endfor %}
     </div>
