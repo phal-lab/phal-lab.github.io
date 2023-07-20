@@ -1,9 +1,46 @@
 ---
 layout: default
 ---
+<style>
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 33.333;
+    padding: 0 4px;
+    width:auto;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+</style>
+
 
 <article class="personal">
-    <div class="entry">
-    {{ content }}
+  <div class="entry">
+    {{ content }}<hr style="opacity: 0.2;">
+    <div class="row">
+      <div class="column">
+        <img src="DSC_1400.jpg">
+        <img src="DSC_1712.jpg">
+      </div>
+      <div class="column">
+        <img src="DSC_1567.jpg">
+        <img src="DSC_1533.jpg">
+      </div>
+      <div class="column">
+        <img src="DSC_2884.jpg">
+        <img src="DSC_2968.jpg">
+      </div>
+    </div>
   </div>
 </article>

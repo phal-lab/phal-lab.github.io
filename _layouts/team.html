@@ -9,7 +9,7 @@ layout: default
       padding: 10px;
   }
   .grid-image {
-      margin: 1em 0 15px;
+      margin: 0em 0 15px;
       padding: 20px;
       font-size: 30px;
       width: 300px;
@@ -38,6 +38,9 @@ layout: default
   a.name {
     color: #00264D;
   }
+  h2 {
+    margin-top: 0em;
+  }
 </style>
 
 <article class="team">
@@ -53,8 +56,8 @@ layout: default
         {{page.yamuna_department}}<br><br>
         {{page.summary}}<br><br>
         <div class="bottom_grid">
-          <a class="button"><b>Faculty Webpage</b></a>
-          <a class="button"><b>Personal Webpage</b></a>
+          <a class="button" href="{{page.yamuna_faculty_link}}"><b>Faculty Webpage</b></a>
+          <a class="button" href="{{site.baseurl}}/team/about-me"><b>About Me</b></a>
         </div>
       </div>
     </div>
@@ -69,7 +72,7 @@ layout: default
           {{member.ms-phd}}<br>
           {{member.dept}}<br><br>
           {{member.summary}}<br><br>
-          <a class="button"><b>LinkedIn</b></a>
+          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}"><b>LinkedIn</b></a>
         </div>
       {% endfor %}
     </div>
