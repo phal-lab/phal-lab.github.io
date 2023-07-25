@@ -3,6 +3,7 @@ layout: PI
 title: Assistant Professor
 permalink: team/about-me/
 headshot: AAA_cropped_v2.png
+twitter: NomadPraju
 linkedin: https://www.linkedin.com/in/yamunaphal3ab413aa/
 email: yphal[at]mines.edu
 office: 327D Brown Hall <br> 1610 Illinois St. <br> Golden, CO 80401

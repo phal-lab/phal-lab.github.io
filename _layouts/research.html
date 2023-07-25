@@ -13,24 +13,44 @@ layout: default
       font-size: 22px;
       width: 400px;
       text-align: center;
+      position: relative;
     }
     .grid-item {
       padding: 20px;
       font-size: 30px;
       text-align: left;
-      font-size: 16px;
+      font-size: 18px;
     }
-    .flex-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: start;
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .25s ease;
+      background-color: #cc4628;
+    }
+    .grid-image:hover .overlay {
+      opacity: 0.8;
+    }
+    .text {
+      color: white;
+      position: absolute;
+      font-size: 25px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       text-align: center;
-    }
-    .flex-container > div {
-      margin: 10px;
-      padding: 20px;
-      font-size: 16px;
-      width: 210px;
     }
     </style>
 
@@ -41,14 +61,61 @@ layout: default
       <h2>Past Projects</h2>
     </div>
     <div>
-      <b>Over</b>
+      <img class="center" loading="lazy" src="overview.png" width="80%" alt="overview.png"><br>
+      <b>Overview of my dissertation work.</b> Prior work focused on developing optical techniques that have pushed the limits of functionality and performance of mid-IR spectroscopic imaging instruments.
+    </div>
+    <div>
+      <h3>Mid-Infrared Laser Scanning Microscope</h3>
     </div>
     <div class="grid-container">
       <div class="grid-image">
-        <img loading="lazy" src="404.jpg" alt="Research Topic">
+        <img loading="lazy" src="laser-scanning.png" alt="Research Topic">
+        <a href="{{site.baseurl}}/publications/dfir_fpr.pdf" target="_blank">
+          <div class="overlay">
+            <div class="text">
+              Click to Read More 
+            </div>
+          </div>  
+        </a>
       </div>  
       <div class="grid-item">
-            
+        This project aimed to enhance system performance through strategic optical configuration. Our mid-IR laser-scanning imager technique significantly expedited the label-free classification of surgical tissue sections. This approach allows for classification within minutes, a stark improvement over the standard hour-long process.
+      </div>
+    </div>
+    <div>
+      <h3>Improved Spatial Resolution Using Decision Theory</h3>
+    </div>
+    <div class="grid-container">
+      <div class="grid-image">
+        <img loading="lazy" src="improved-resolution.png" alt="Research Topic">
+        <a href="{{site.baseurl}}/publications/acs.jpcc_.2c00740.pdf" target="_blank">
+          <div class="overlay">
+            <div class="text">
+              Click to Read More 
+            </div>
+          </div>  
+        </a>
+      </div>  
+      <div class="grid-item">
+        Leveraging a decision theory framework, I've shown that the perceived spatial resolution limit can be enhanced by incorporating spectral information. This approach has also been utilized to exhibit an improvement in the detection limits of a representative mid-IR instrument. Through this research, we've provided a pathway for higher precision and efficiency in mid-IR instrumentation.
+      </div>
+    </div>
+    <div>
+      <h3>Chirality Mapping</h3>
+    </div>
+    <div class="grid-container">
+      <div class="grid-image">
+        <img loading="lazy" src="chirality-mapping.png" alt="Research Topic">
+        <a href="{{site.baseurl}}/publications/039_OPN_12_21.pdf" target="_blank">
+          <div class="overlay">
+            <div class="text">
+              Click to Read More 
+            </div>
+          </div>  
+        </a>
+      </div>  
+      <div class="grid-item">
+        A refined optical configuration approach has allowed us to demonstrate mid-IR polarization imaging and, for the first time, image site-specific chirality of molecules. Our developed paradigm can elucidate the secondary structures in a sub-mL sample volume of biomolecules such as proteins. The advancements we've achieved in these measurements are significantly faster than the state-of-the-art bulk measurements. Additionally, they provide the first opportunity to visualize the microscale distribution of molecular chirality (patented technology).
       </div>
     </div>
   </article>
