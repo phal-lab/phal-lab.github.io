@@ -2,7 +2,7 @@
 layout: post
 title: "ECE graduate student Phal's research featured on journal cover for a third time"
 tags: 
-image: yphal.png
+image: Phal-Yamuna-IG.png
 external_link: https://ece.illinois.edu/newsroom/news/50084
 excerpt_separator: <!--more-->
 ---
