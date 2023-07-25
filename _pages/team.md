@@ -4,7 +4,7 @@ title:
 permalink: /team/
 yamuna_title: Assistant Professor
 yamuna_department: Department of Electrical Engineering, Colorado School of Mines
-yamuna_headshot: Phal-Yamuna_0423.jpg
+yamuna_headshot: AAA_cropped_v2.png
 yamuna_faculty_link: https://electrical.mines.edu/project/phal-yamuna/
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id velit ut tortor pretium viverra suspendisse potenti nullam. Mattis nunc sed blandit libero volutpat sed cras. Malesuada fames ac turpis egestas sed. Turpis tincidunt id aliquet risus feugiat. Diam volutpat commodo sed egestas egestas fringilla phasellus. 
 grad_members:

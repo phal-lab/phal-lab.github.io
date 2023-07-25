@@ -2,7 +2,7 @@
 layout: PI
 title: Assistant Professor
 permalink: team/about-me/
-headshot: Phal-Yamuna_0423.jpg
+headshot: AAA_cropped_v2.png
 linkedin: https://www.linkedin.com/in/yamunaphal3ab413aa/
 email: yphal[at]mines.edu
 office: 327D Brown Hall <br> 1610 Illinois St. <br> Golden, CO 80401
@@ -30,10 +30,3 @@ work-experience:
 I am excited to begin my journey as an Assistant Professor at the Colorado School of Mines in the Department of Electrical Engineering starting this Fall. I am actively seeking motivated graduate students to join my research team. If you have a passion for interdisciplinary research that merges engineering, optics, and data science to advance biomedical applications, please feel free to reach out at yphal[at]mines.edu! 
 
 Before pursuing my doctorate in Electrical Engineering at UIUC, I gained industry experience as an analog design engineer at Finisar and the Swedish Institute of Space Physics. My earlier research centered on developing instrumentation for space applications, and now, I am focusing on the creation of optical tools for diagnostic purposes. 
-
-As an electrical engineer with a deep fascination for space, I enjoy exploring the world around me. My hobbies include traveling, hiking, photography, and running. Recently, I have also taken up lead climbing. In addition to my academic and professional pursuits, I have a couple fun achievements to share:
-
-<bl>
-<li>My first art exhibit, <a href="https://champaignparks.com/event/the-world-through-my-lens-by-yamuna-phal/2018-10-12/" target = _blank>The World Through My Lens</a></li>
-<li>My National Geographic Traveller article on the Northern Lights, <a href="https://natgeotraveller.in/seeing-the-northern-lights-its-not-as-easy-as-driving-north-and-looking-up/" target = _blank>Seeing the Northern Lights: It's not as Easy as Driving North and Looking Up</a></li>
-</bl>
