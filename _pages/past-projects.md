@@ -2,6 +2,10 @@
 layout: past-projects
 permalink: /research/past-projects
 projects:
+  - title: Overview of my Dissertation Work
+    image: overview.png
+    link:
+    summary: Prior work focused on developing optical techniques that have pushed the limits of functionality and performance of mid-IR spectroscopic imaging instruments. 
   - title: Mid-Infrared Laser Scanning Microscope
     image: laser-scanning.png
     link: dfir_fpr.pdf
