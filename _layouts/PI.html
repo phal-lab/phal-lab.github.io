@@ -21,9 +21,21 @@ layout: default
   text-align: left;
   font-size: 16px;
 }
-
+.center{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 h2 {
   margin-top: 0em;
+}
+.justalilmoremargin {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.justalilmoretopmargin {
+  margin-top: 10px;
 }
 
 </style>
@@ -36,13 +48,15 @@ h2 {
         <b style="font-size: 20px; color: #21314d;">Dr. Yamuna Phal, PhD</b><br>
         {{page.title}}<br>
         [<a href="../{{page.cv}}" target="_blank">CV</a>]<br>
-        <div class="office">
+        <div>
           Email: {{page.email}} <br>
           Office: {{page.office}}<br>
-          <img src="{{site.baseurl}}/images/mines-wordmark.png" width="100%">
-          <a href="https://scholar.google.com/citations?user=Rr8OH9QAAAAJ&hl=en" target="_blank"><i class="svg-icon googlescholar"></i></a>
-          <a href="https://www.linkedin.com/in/{{page.linkedin}}" target="_blank"><i class="svg-icon linkedin"></i></a>
-          <a href="https://www.twitter.com/{{page.twitter}}" target="_blank"><i class="svg-icon twitter"></i></a>
+        </div>
+        <div class="center">
+          <img class="justalilmoretopmargin" src="{{site.baseurl}}/images/mines-wordmark.png" width="100%">
+          <a class="justalilmoremargin" href="https://scholar.google.com/citations?user=Rr8OH9QAAAAJ&hl=en" target="_blank"><i class="svg-icon googlescholar"></i></a>
+          <a class="justalilmoremargin" href="https://www.linkedin.com/in/{{page.linkedin}}" target="_blank"><i class="svg-icon linkedin"></i></a>
+          <a class="justalilmoremargin" href="https://www.twitter.com/{{page.twitter}}" target="_blank"><i class="svg-icon twitter"></i></a>
         </div>
       </div>
       <div class = "grid-item">
@@ -57,18 +71,6 @@ h2 {
           <h3>Work Experience</h3>
           <bl>
             {% for item in page.work-experience %}
-              <li>{{ item }}</li>
-            {% endfor %}
-          </bl>
-        <h3>Courses Taught</h3>
-          <bl>
-            {% for item in page.courses-taught %}
-              <li>{{ item }}</li>
-            {% endfor %}
-          </bl>
-        <h3>Awards</h3>
-          <bl>
-            {% for item in page.awards %}
               <li>{{ item }}</li>
             {% endfor %}
           </bl>

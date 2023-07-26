@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
+<style>
+  .left {
+    text-align: left;
+  }
+</style>
 
 <article class="publications">
 
-    <div>
+    <div class="left">
       <div>
         <h2>Featured Covers</h2>
         <img loading="lazy" src="{{page.featured_covers}}" alt="cover images">
@@ -23,7 +28,7 @@ layout: default
               {% endif %}
               {{pub.year}}. <br>
 
-              {% if pub.pdf_src == null%}
+              {% if pub.pdf_src == null %}
                 [<a href="no-pdf">PDF</a>]
               {% else %}
                 [<a href="{{pub.pdf_src}}">PDF</a>]
@@ -33,7 +38,7 @@ layout: default
                 DOI: <a href="https://doi.org/{{pub.doi}}">{{pub.doi}}</a>
               {% endif %}
 
-              {% if pub.special_remarks != null%}
+              {% if pub.special_remarks != null %}
               | <i>{{pub.special_remarks}}</i>
               {% endif %}
             </li>
