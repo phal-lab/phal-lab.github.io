@@ -42,7 +42,7 @@ layout: default
   h2 {
     margin-top: 0em;
   }
-  @media only screen {
+  @media only screen and (max-device-width: 480px) {
     .grid-container {
       display: grid;
       grid-template-columns: 1fr;
@@ -53,7 +53,7 @@ layout: default
       grid-column-start: 1;  
       grid-row-start: 1;  
       margin: 0em 0 15px;
-        padding: 20px;
+        padding: 5px;
         font-size: 30px;
         width: 300px;
         border: 2px dashed pink;
@@ -61,7 +61,7 @@ layout: default
     .grid-text {
       grid-column-start: 1;  
       grid-row-start: 2;  
-        padding: 20px;
+        padding: 5px;
         font-size: 16px;
         text-align: left;
         width: 100%;
