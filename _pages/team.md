@@ -7,7 +7,7 @@ yamuna_department: Department of Electrical Engineering, Colorado School of Mine
 yamuna_headshot: AAA_cropped_v2.png
 yamuna_faculty_link: https://electrical.mines.edu/project/phal-yamuna/
 summary:
-post_docs:
+postdocs:
 grad_members:
     - name: Michael Le
       headshot: mikele.jpg

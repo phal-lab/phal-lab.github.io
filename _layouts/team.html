@@ -51,24 +51,28 @@ layout: default
       grid-column-start: 1;  
       grid-row-start: 1;  
       margin: 0em 0 15px;
-        padding: 5px;
-        font-size: 30px;
-        width: 300px;
+      padding: 5px;
+      font-size: 30px;
+      width: 300px;
     }
     .grid-text {
       grid-column-start: 1;  
       grid-row-start: 2;  
-        padding: 5px;
-        font-size: 16px;
-        text-align: left;
-        width: 100%;
+      padding: 5px;
+      font-size: 16px;
+      text-align: left;
+      width: 100%;
+    }
+    .mobile-padding {
+      padding-left: 10px;
     }
   }
 </style>
 
 <article class="team">
   <div class="style">
-    <h2>Principal Investigator</h2>
+    <!-- Yamuna's Portion-->
+    <h2 class="mobile-padding">Principal Investigator</h2>
     <div class="grid-container">
       <div class="grid-image">
         <img src="{{page.yamuna_headshot}}">
@@ -84,7 +88,26 @@ layout: default
         </div>
       </div>
     </div>
-    <h2>Graduate Students</h2>
+    <!-- Postdocs HTML -->
+    <!--
+    <h2 class="mobile-padding">Postdocs</h2>
+    <div class="grid-container">
+      {% for member in page.postdocs %}
+        <div class="grid-image">
+          <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo">
+        </div>
+        <div class="grid-text">
+          <h2>{{member.name}}</h2>
+          {{member.ms-phd}}<br>
+          {{member.dept}}<br><br>
+          {{member.summary}}<br><br>
+          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><b>LinkedIn</b></a>
+        </div>
+      {% endfor %}
+    </div>
+    -->
+    <!-- Graduate Students HTML -->
+    <h2 class="mobile-padding">Graduate Students</h2>
     <div class="grid-container">
       {% for member in page.grad_members %}
         <div class="grid-image">
@@ -99,6 +122,24 @@ layout: default
         </div>
       {% endfor %}
     </div>
+    <!-- Undergraduate Students HTML -->
+    <!--
+    <h2 class="mobile-padding">Undergraduate Students</h2>
+    <div class="grid-container">
+      {% for member in page.undergrad_members %}
+        <div class="grid-image">
+          <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo">
+        </div>
+        <div class="grid-text">
+          <h2>{{member.name}}</h2>
+          {{member.ms-phd}}<br>
+          {{member.dept}}<br><br>
+          {{member.summary}}<br><br>
+          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><b>LinkedIn</b></a>
+        </div>
+      {% endfor %}
+    </div>
+    -->
     {{ content }}
   </div>
 </article>

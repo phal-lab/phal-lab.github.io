@@ -76,12 +76,6 @@ layout: default
             text-align: left;
             width: 100%;
         }
-        .title-padding {
-            padding-left: 10px;
-        }
-        .mobile-padding {
-            padding-left: 10px;
-        }
     }
 </style>
 
@@ -90,7 +84,7 @@ layout: default
         <h2>Past Projects</h2>
     </div>
     {% for project in page.projects %}
-        <div class="mobile-padding">
+        <div class="title-padding">
             <h3>{{project.title}}</h3>
         </div>
         <div class="grid-container">
