@@ -88,14 +88,14 @@ layout: default
     <div class="grid-container">
       {% for member in page.grad_members %}
         <div class="grid-image">
-          <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo" class="rounded">
+          <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo">
         </div>
         <div class="grid-text">
           <h2>{{member.name}}</h2>
           {{member.ms-phd}}<br>
           {{member.dept}}<br><br>
           {{member.summary}}<br><br>
-          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}"><b>LinkedIn</b></a>
+          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><b>LinkedIn</b></a>
         </div>
       {% endfor %}
     </div>
