@@ -63,7 +63,7 @@ layout: default
         .grid-image {
             grid-column-start: 1;  
             grid-row-start: 1;  
-            margin: 0em 0 15px;
+            margin-left: 10px;
             padding: 5px;
             font-size: 30px;
             width: 300px;
@@ -80,7 +80,7 @@ layout: default
             padding-left: 10px;
         }
         .mobile-padding {
-            padding-left: 15px;
+            padding-left: 10px;
         }
     }
 </style>
@@ -90,7 +90,7 @@ layout: default
         <h2>Past Projects</h2>
     </div>
     {% for project in page.projects %}
-        <div>
+        <div class="mobile-padding">
             <h3>{{project.title}}</h3>
         </div>
         <div class="grid-container">
