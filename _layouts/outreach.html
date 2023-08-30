@@ -68,22 +68,17 @@ layout: default
     }
     </style>
 
-<article class="news">
+<article class="outreach">
   <div class="entry">
     {% for post in site.posts %}
-        {% if post.tags contains "news" %}
+        {% if post.tags contains "outreach" %}
             <div class="grid-container">
                 <div class="grid-image">
                     <img loading="lazy" src="{{post.image}}" alt="Article Image">
                 </div>
                 <div class="grid-text">
                     <h2>{{post.title}}</h2><hr>
-                    {{post.excerpt}}
-                        {% if post.external_link != null %}
-                            <a href="{{post.external_link}}" target="_blank" class="button"><b>Read More</b></a>
-                        {% else %}
-                            <a href="{{post.url}}" class="button"><b>Read More</b></a>
-                        {% endif %}
+                    {{post.content}}
                 </div>
             </div>
         {% endif %}

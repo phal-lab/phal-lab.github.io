@@ -1,11 +1,14 @@
 ---
 layout: PI
+type: for_team_page
 title: Assistant Professor
+department: Department of Electrical Engineering, Colorado School of Mines
 permalink: team/about-me/
 headshot: AAA_cropped_v2.png
 twitter: NomadPraju
 linkedin: yamunaphal3ab413aa
-email: yphal[at]mines.edu
+faculty: https://electrical.mines.edu/project/phal-yamuna/
+email: yphal [at] mines [dot] edu
 office: 327D Brown Hall <br> 1610 Illinois St. <br> Golden, CO 80401
 cv: here.pdf
 education:
@@ -19,6 +22,6 @@ work-experience:
 ---
 
 <!--- Profile Headshot must be in team folder!!---->
-I am excited to begin my journey as an Assistant Professor at the Colorado School of Mines in the Department of Electrical Engineering starting this Fall. I am actively seeking motivated graduate students to join my research team. If you have a passion for interdisciplinary research that merges engineering, optics, and data science to advance biomedical applications, please feel free to reach out at yphal[at]mines.edu! 
+I am excited to begin my journey as an Assistant Professor at the Colorado School of Mines in the Department of Electrical Engineering starting this Fall. I am actively seeking motivated graduate students to join my research team. If you have a passion for interdisciplinary research that merges engineering, optics, and data science to advance biomedical applications, please feel free to reach out at yphal [at] mines [dot] edu! 
 
 Before pursuing my doctorate in Electrical Engineering at UIUC, I gained industry experience as an analog design engineer at Finisar and the Swedish Institute of Space Physics. My earlier research centered on developing instrumentation for space applications, and now, I am focusing on the creation of optical tools for diagnostic purposes. 

@@ -10,7 +10,7 @@ layout: default
   .grid-image {
       margin: 0em 0 15px;
       padding: 20px;
-      font-size: 30px;
+      font-size: 16px;
       width: 300px;
   }
   .grid-text {
@@ -29,6 +29,7 @@ layout: default
       display: inline-block;
       font-size: 14px;
       border-radius: 5px;
+      margin-top: 1em;
   }
   .bottom_grid {
     grid-template-rows: subgrid;
@@ -37,8 +38,14 @@ layout: default
   a.name {
     color: #00264D;
   }
-  h2 {
+  h2, h3 {
     margin-top: 0em;
+  }
+  .center{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   }
   @media only screen and (max-device-width: 480px) {
     .grid-container {
@@ -52,7 +59,7 @@ layout: default
       grid-row-start: 1;  
       margin: 0em 0 15px;
       padding: 5px;
-      font-size: 30px;
+      font-size: 16px;
       width: 300px;
     }
     .grid-text {
@@ -62,6 +69,7 @@ layout: default
       font-size: 16px;
       text-align: left;
       width: 100%;
+      margin-bottom: 5px;
     }
     .mobile-padding {
       padding-left: 15px;
@@ -72,21 +80,43 @@ layout: default
 
 <article class="team">
   <div class="style">
+    <!-- Access Data from Yamuna's PI Page-->
+    {% assign yamuna = site.pages | where: "type", "for_team_page" | first %}
     <!-- Yamuna's Portion-->
     <h2 class="mobile-padding">Principal Investigator</h2>
     <div class="grid-container">
       <div class="grid-image">
-        <img src="{{page.yamuna_headshot}}">
+        <img src="{{yamuna.headshot}}">
+        <div>
+          Email: {{yamuna.email}} <br>
+          Office: {{yamuna.office}}<br>
+        </div>
+        <div class="center">
+          <a class="justalilmoretopmargin" href="{{yamuna.faculty}}" target="_blank"><img src="{{site.baseurl}}/images/mines-wordmark.png" width="100%"></a>
+          <a class="justalilmoremargin" href="https://scholar.google.com/citations?user=Rr8OH9QAAAAJ&hl=en" target="_blank"><i class="svg-icon googlescholar"></i></a>
+          <a class="justalilmoremargin" href="https://www.linkedin.com/in/{{yamuna.linkedin}}" target="_blank"><i class="svg-icon linkedin"></i></a>
+          <a class="justalilmoremargin" href="https://www.twitter.com/{{yamuna.twitter}}" target="_blank"><i class="svg-icon twitter"></i></a>
+        </div>
       </div>
       <div class="grid-text">
-        <h2>Yamuna Phal, PhD</h2>
-        {{page.yamuna_title}}<br>
-        {{page.yamuna_department}}<br><br>
-        {{page.summary}}<br><br>
-        <div class="bottom_grid">
-          <a class="button" href="{{page.yamuna_faculty_link}}"><b>Faculty Webpage</b></a>
-          <a class="button" href="{{site.baseurl}}/team/about-me"><b>About Me</b></a>
-        </div>
+        <h2>Dr. Yamuna Phal, PhD</h2>
+        {{yamuna.title}}<br>
+        {{yamuna.department}}<br><br>
+        <h3>About Me</h3>
+        {{yamuna.content}}
+        <h3>Education</h3>
+        <bl>
+          {% for item in yamuna.education %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </bl>
+        <br>
+        <h3>Work Experience</h3>
+        <bl>
+          {% for item in yamuna.work-experience %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </bl>
       </div>
     </div>
     <!-- Postdocs HTML -->
@@ -102,7 +132,7 @@ layout: default
           {{member.ms-phd}}<br>
           {{member.dept}}<br><br>
           {{member.summary}}<br><br>
-          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><b>LinkedIn</b></a>
+          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><i class="svg-icon linkedin"></i></a>
         </div>
       {% endfor %}
     </div>
@@ -119,7 +149,7 @@ layout: default
           {{member.ms-phd}}<br>
           {{member.dept}}<br><br>
           {{member.summary}}<br><br>
-          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><b>LinkedIn</b></a>
+          <a class="justalilmoremargin" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><i class="svg-icon linkedin"></i></a>
         </div>
       {% endfor %}
     </div>
@@ -136,7 +166,7 @@ layout: default
           {{member.ms-phd}}<br>
           {{member.dept}}<br><br>
           {{member.summary}}<br><br>
-          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><b>LinkedIn</b></a>
+          <a class="button" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><i class="svg-icon linkedin"></i></a>
         </div>
       {% endfor %}
     </div>

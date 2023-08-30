@@ -5,7 +5,7 @@ permalink: /research/
 current-projects:
 ---
 <!-- 
-    IF YOU START PUBLISHING CURRENT PROJECTS, YOU NEED TO UNCOMMENT BELOW. (Can't run if statement outside of a liquid for loop.)
+    IF YOU START PUBLISHING CURRENT PROJECTS, YOU NEED TO UNCOMMENT "## Current Projects ##" BELOW. (Can't run if statement outside of a liquid for loop.)
 
     Variable Explanations 
     - Image should just be the file name and placed in the research folder
@@ -25,7 +25,7 @@ current-projects:
 
 Our research group is dedicated to the development of next-generation mid-infrared spectroscopic imaging technologies. Our core areas of focus encompass light-physics, optical design, image restoration, and light modulation techniques. We combine engineering, optics, and data science to address complex challenges and create novel solutions.
 
-If you join our team, you'll delve into stimulating research topics such as electromagnetic theory, instrumentation development, and learning-based diagnostics.
+If you join our team, you will delve into stimulating research topics such as electromagnetic theory, instrumentation development, and learning-based diagnostics.
 
 ## Mid-Infrared Instruments ##
 

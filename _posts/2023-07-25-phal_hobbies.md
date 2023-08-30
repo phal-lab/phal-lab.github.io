@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Crossing paths: How hobbies shaped Yamuna Phal's research"
-tags: 
+tags: news
 image: Yamuna-Phal-at-Beckman.jpg
 external_link: https://beckman.illinois.edu/about/news/article/2023/07/25/crossing-paths-how-hobbies-shaped-yamuna-phal's-research
 excerpt_separator: <!--more-->
