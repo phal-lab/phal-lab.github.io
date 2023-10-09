@@ -17,7 +17,7 @@ grad_members:
     summary: Michael Le is a first year PhD student from Illinois with a focus on optical design. He received his B.S. in Engineering Physics from The Colorado School of Mines in 2019. Prior to starting his graduate program, he worked in several Aerospace startups focusing on novel systems design and alternative energy storage. Outside of school, he enjoys fly fishing, hanging out with his dog, and working on projects in his basement.
 undergrad_members:
   - name: Ethan Cowan
-    headshot: ethan.jpg
+    headshot: ethancowan.jpg
     dept: Department of Electrical Engineering
     linkedin-user: ethan-cowan
     summary: Hello, my name is Ethan! I am a sophomore at the Colorado School of Mines. I'm an avid rock climber and the Vice President of the Competitive Climbing Team at Mines. I have always had a love for engineering and have always had a knack for circuits. In addition to climbing, I also play guitar, skateboard, and design STEM camp curriculum for the YMCA. 
