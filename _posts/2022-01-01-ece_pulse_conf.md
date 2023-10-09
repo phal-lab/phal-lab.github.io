@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "PhD Candidate Yamuna Phal wins 2021 FACSS SciX Conference Poster Award"
+title: "ECE Pulse Conference 2022, UIUC"
 tags: outreach
-image: 405170.jpg
+image: ECE-pulse.jpg
 ---
+Panelist, Women in Academia

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "PhD Candidate Yamuna Phal wins 2021 FACSS SciX Conference Poster Award"
+title: "International Career Festival 2023, UIUC"
 tags: outreach
-image: 405170.jpg
+image: careerfestival.jpg
 ---
+Panelist, Alumni Panel
