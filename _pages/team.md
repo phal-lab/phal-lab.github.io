@@ -17,7 +17,7 @@ grad_members:
     summary: Michael Le is a first year PhD student from Illinois with a focus on optical design. He received his B.S. in Engineering Physics from The Colorado School of Mines in 2019. Prior to starting his graduate program, he worked in several Aerospace startups focusing on novel systems design and alternative energy storage. Outside of school, he enjoys fly fishing, hanging out with his dog, and working on projects in his basement.
 undergrad_members:
   - name: Roya Akrami
-    headshot: royaakrami.jpg
+    headshot: royaakrami (1).jpg
     dept: Department of Electrical Engineering
     linkedin-user: roya-akrami-021113246
     summary: Roya Akrami is a rising sophomore pursuing an undergraduate degree in Electrical Engineering. She is a recipient of the FIRST scholar award and the SURF scholar award from the Colorado School of Mines, which support her involvement in research projects. Recently, Roya achieved 3rd place presenting at the Mines' Spring 2024 Undergraduate Research Symposium. Outside of her academic work, she enjoys crocheting and cooking and is always excited to share her latest creations.
