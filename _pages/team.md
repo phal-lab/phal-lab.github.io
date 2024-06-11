@@ -16,11 +16,11 @@ grad_members:
     linkedin-user: michaeljzle
     summary: Michael Le is a first year PhD student from Illinois with a focus on optical design. He received his B.S. in Engineering Physics from The Colorado School of Mines in 2019. Prior to starting his graduate program, he worked in several Aerospace startups focusing on novel systems design and alternative energy storage. Outside of school, he enjoys fly fishing, hanging out with his dog, and working on projects in his basement.
 undergrad_members:
-  - name: Ethan Cowan
-    headshot: ethancowan.jpg
+  - name: Roya Akrami
+    headshot: royaakrami.jpg
     dept: Department of Electrical Engineering
-    linkedin-user: ethan-cowan
-    summary: Hello, my name is Ethan! I am a sophomore at the Colorado School of Mines. I'm an avid rock climber and the Vice President of the Competitive Climbing Team at Mines. I have always had a love for engineering and have always had a knack for circuits. In addition to climbing, I also play guitar, skateboard, and design STEM camp curriculum for the YMCA. 
+    linkedin-user: roya-akrami-021113246
+    summary: Roya Akrami is a rising sophomore pursuing an undergraduate degree in Electrical Engineering. She is a recipient of the FIRST scholar award and the SURF scholar award from the Colorado School of Mines, which support her involvement in research projects. Recently, Roya achieved 3rd place presenting at the Mines' Spring 2024 Undergraduate Research Symposium. Outside of her academic work, she enjoys crocheting and cooking and is always excited to share her latest creations.
 ---
 <!-- To Use this page, copy and paste template below or an entry above to add a member and the website should auto update. Make sure the variable is nested within postdocs, undergrad_members or grad_members. Lab Alumni are added at the bottom.-->
 
