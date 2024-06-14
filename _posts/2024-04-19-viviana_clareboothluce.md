@@ -2,7 +2,7 @@
 layout: post
 title: "Viviana awarded the Clare Booth Luce Fellowship, Congratulations!"
 tags: news
-image: 
+image: vivianacongrats.jpeg
 external_link: https://www.linkedin.com/posts/mines-electrical-engineering-b628a6192_congrats-clareboothluce-ee-activity-7187142484693606400--bwr?utm_source=share&utm_medium=member_desktop
 excerpt_separator: <!--more-->
 ---
