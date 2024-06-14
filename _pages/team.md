@@ -20,12 +20,12 @@ undergrad_members:
     headshot: royaakrami (1).jpg
     dept: Department of Electrical Engineering
     linkedin-user: roya-akrami-021113246
-    summary: Roya Akrami is a rising sophomore pursuing an undergraduate degree in Electrical Engineering. She is a recipient of the FIRST scholar award and the SURF scholar award from the Colorado School of Mines, which support her involvement in research projects. Recently, Roya achieved 3rd place presenting at the Mines' Spring 2024 Undergraduate Research Symposium. Outside of her academic work, she enjoys crocheting and cooking and is always excited to share her latest creations.
-   - name: Raina Majumder
-     headshot: rainamajumder.jpg
-     dept: Department of Applied Mathematics
-     linkedin-user: raina-majumder-65293a29a
-     summary: Raina Majumder is an undergraduate student pursuing her degree in Applied and Computational Mathematics with a minor in Culture, Creativity, and Communication. She is a recipient of the FIRST scholar award and the Grewcock Presidential Scholarship award from the Colorado School of Mines, both of which support her pursuits of partaking in undergraduate research. Outside of her academic work, Raina enjoys reading, crocheting, and studying for various math competitions.
+    summary: Roya Akrami is a rising sophomore pursuing an undergraduate degree in Electrical Engineering. She is a recipient of the FIRST scholar award and the SURF scholar award from the Colorado School of Mines, which support her involvement in research projects. Recently, Roya achieved 3rd place presenting at the Mines' Spring 2024 Undergraduate Research Symposium. Outside of her academic work, she enjoys crocheting and cooking and is always excited to share her latest creations
+  - name: Raina Majumder
+    headshot: rainamajumder.jpg
+    dept: Department of Applied Mathematics
+    linkedin-user: raina-majumder-65293a29a
+    summary: Raina Majumder is an undergraduate student pursuing her degree in Applied and Computational Mathematics with a minor in Culture, Creativity, and Communication. She is a recipient of the FIRST scholar award and the Grewcock Presidential Scholarship award from the Colorado School of Mines, both of which support her pursuits of partaking in undergraduate research. Outside of her academic work, Raina enjoys reading, crocheting, and studying for various math competitions.
 ---
 <!-- To Use this page, copy and paste template below or an entry above to add a member and the website should auto update. Make sure the variable is nested within postdocs, undergrad_members or grad_members. Lab Alumni are added at the bottom.-->
 
