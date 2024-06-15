@@ -122,8 +122,8 @@ layout: default
     <!-- Postdocs HTML -->
     <!--
     <h2 class="mobile-padding">Postdocs</h2>
-    <div class="grid-container">
-      {% for member in page.postdocs %}
+    {% for member in page.postdocs %}
+      <div class="grid-container">
         <div class="grid-image">
           <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo">
         </div>
@@ -134,13 +134,13 @@ layout: default
           {{member.summary}}<br><br>
           <a class="justalilmoremargin" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><i class="svg-icon linkedin"></i></a>
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
     -->
     <!-- Graduate Students HTML -->
     <h2 class="mobile-padding">Graduate Students</h2>
-    <div class="grid-container">
-      {% for member in page.grad_members %}
+    {% for member in page.grad_members %}
+      <div class="grid-container">
         <div class="grid-image">
           <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo">
         </div>
@@ -151,8 +151,8 @@ layout: default
           {{member.summary}}<br><br>
           <a class="justalilmoremargin" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><i class="svg-icon linkedin"></i></a>
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
     <!-- Undergraduate Students HTML --> 
     <h2 class="mobile-padding">Undergraduate Students</h2>
     {% for member in page.undergrad_members %}
