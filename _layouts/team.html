@@ -155,8 +155,8 @@ layout: default
     </div>
     <!-- Undergraduate Students HTML --> 
     <h2 class="mobile-padding">Undergraduate Students</h2>
-    <div class="grid-container">
-      {% for member in page.undergrad_members %}
+    {% for member in page.undergrad_members %}
+      <div class="grid-container">
         <div class="grid-image">
           <img loading="lazy" src="{{member.headshot}}" alt="Profile Photo">
         </div>
@@ -167,8 +167,8 @@ layout: default
           {{member.summary}}<br><br>
           <a class="justalilmoremargin" href="https://www.linkedin.com/in/{{member.linkedin-user}}" target="_blank"><i class="svg-icon linkedin"></i></a>
         </div>
-      {% endfor %}
-    </div>
+      </div>
+    {% endfor %}
     {{ content }}
   </div>
 </article>
