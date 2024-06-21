@@ -14,6 +14,15 @@ permalink: /teaching/
 
 ## Teaching Experience ##
 
+* Instructor <br>
+Digital Imaging (EENG-598B), Fall 2024, Colorado School of Mines
+
+* Instructor <br>
+Digital Signal Processing (EENG-411), Spring 2024, Colorado School of Mines
+
+* Guest Lecturer <br>
+Laser Physics (PHGN-480 & PHGN-581), October 2023, Colorado School of Mines
+
 * Guest Lecturer <br>
 Graduate Seminar Series (BIOE 570), October 2021, University of Illinois Urbana Champaign
 
