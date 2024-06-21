@@ -13,6 +13,15 @@ all_publications_ieee:
       doi: 10.1038/s41467-023-40740-w
       special_remarks:
 
+    - authors: <b>Y. Phal</b>
+      title: Quantum cascade laser-based mid-infrared spectroscopic imaging systems with polarization capabilities
+      journal_or_conf: University of Illinois at Urbana-Champaign
+      journal_info: 
+      year: 2023
+      pdf_src: 
+      doi: https://hdl.handle.net/2142/121239
+      special_remarks: Doctoral Dissertation
+
     - authors: P.-H. Hsieh, <b>Y. Phal</b>, K. V. Prasanth, and R. Bhargava
       title: Cell phase identification in a three-dimensional engineered tumor model by infrared spectroscopic imaging
       journal_or_conf: Analytical Chemistry
