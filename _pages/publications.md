@@ -19,7 +19,7 @@ all_publications_ieee:
       journal_info: 
       year: 2023
       pdf_src: 
-      doi: https://hdl.handle.net/2142/121239
+      doi:
       special_remarks: Doctoral Dissertation
 
     - authors: P.-H. Hsieh, <b>Y. Phal</b>, K. V. Prasanth, and R. Bhargava
