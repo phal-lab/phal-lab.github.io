@@ -5,6 +5,15 @@ permalink: /publications/
 featured_covers: covers.png
 all_publications_ieee:
     - authors: K. Yeh, I. Sharma, K. Falahkheirkhah, M. P. Confer, A. C. Orr, Y. T. Liu and <b>Y. Phal</b>
+      title: Label-Free Monitoring of Coculture System Dynamics: Probing Probiotic and Cancer Cell Interactions via Infrared Spectroscopic Imaging
+      journal_or_conf: Analytical Chemistry
+      journal_info: 
+      year: 2024
+      pdf_src: phalaugust2023nature.pdf
+      doi: 10.1021/acs.analchem.4c00894
+      special_remarks:
+      
+    - authors: K. Yeh, I. Sharma, K. Falahkheirkhah, M. P. Confer, A. C. Orr, Y. T. Liu and <b>Y. Phal</b>
       title: Infrared spectroscopic laser scanning confocal microscopy for whole-slide chemical imaging
       journal_or_conf: Nature Communications
       journal_info: vol. 14, no. 1, pp. 5215
