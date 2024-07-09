@@ -9,7 +9,7 @@ all_publications_ieee:
       journal_or_conf: Analytical Chemistry
       journal_info: 
       year: 2024
-      pdf_src: phalaugust2023nature.pdf
+      pdf_src: phaljune2024analytical.pdf
       doi: 10.1021/acs.analchem.4c00894
       special_remarks:
       
