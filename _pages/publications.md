@@ -4,7 +4,7 @@ title:
 permalink: /publications/
 featured_covers: covers.png
 all_publications_ieee:
-    - authors: K. Yeh, I. Sharma, K. Falahkheirkhah, M. P. Confer, A. C. Orr, Y. T. Liu and <b>Y. Phal</b>
+   - authors: Y. Jeong, P. Hsieh, <b>Y. Phal</b>, R. Bhargava*, and J. Irudayaraj
       title: Label-Free Monitoring of Coculture System Dynamics: Probing Probiotic and Cancer Cell Interactions via Infrared Spectroscopic Imaging
       journal_or_conf: Analytical Chemistry
       journal_info: 
