@@ -4,11 +4,10 @@ title:
 permalink: /publications/
 featured_covers: covers.png
 all_publications_ieee:
-    
-    - authors: Y. Jeong, P. Hsieh, <b>Y. Phal</b>, R. Bhargava*, and J. Irudayaraj
+    - authors: Y. Jeong, P. Hsieh, <b>Y. Phal</b>, R. Bhargava, and J. Irudayaraj
       title: Label-Free Monitoring of Coculture System Dynamics: Probing Probiotic and Cancer Cell Interactions via Infrared Spectroscopic Imaging
       journal_or_conf: Analytical Chemistry
-      journal_info: 
+      journal_info: Article
       year: 2024
       pdf_src: phaljune2024analytical.pdf
       doi: 10.1021/acs.analchem.4c00894
