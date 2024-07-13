@@ -10,7 +10,7 @@ linkedin: yamunaphal3ab413aa
 faculty: https://electrical.mines.edu/project/phal-yamuna/
 email: yphal [at] mines [dot] edu
 office: 327D Brown Hall <br> 1610 Illinois St. <br> Golden, CO 80401
-cv: here.pdf
+cv: CV_YamunaPhal_Mines_Web_Site.pdf
 education:
     - Ph.D. in Electrical and Computer Engineering, University of Illinois at Urbana-Champaign
     - M.S. in Electrical Engineering, California Institute of Technology
