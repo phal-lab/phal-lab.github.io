@@ -21,7 +21,7 @@ grad_members:
     dept: Department of Electrical Engineering
     summary: I am a first-year PhD student at the Colorado School of Mines, with a focus on modeling optical nano and microstructures. My academic journey commenced in Russia, specifically in Krasnoyarsk, where I earned both my bachelor's and master's degrees. Before joining the Colorado School of Mines, my research centered around examining collective lattice resonances in periodic structures and analyzing the magnetic response in individual spherical nanoantennas. Currently, my research interests lie in the realm of optical modeling, where I strive to contribute to the progress of this fascinating field. Beyond the lab, I relish exploring the great outdoors and its stunning landscapes, and I have a deep passion for astronomy and photography.
   - name: Viviana Arrunategui Norvick
-    headshot: vivianaicon (1).png
+    headshot: vivianaicon (2).png
     ms-phd: PhD Student
     dept: Department of Electrical Engineering
     linkedin-user: viviana-arrunategui
