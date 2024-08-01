@@ -32,7 +32,7 @@ undergrad_members:
     ms-phd: Undergraduate Student
     dept: Department of Electrical Engineering
     linkedin-user: roya-akrami-021113246
-    summary: Roya Akrami is a sophomore majoring in Electrical Engineering at the Colorado School of Mines. Her research efforts have been recognized and supported by the FIRST and SURF scholar awards, and she achieved 3rd place at the Spring 2024 Mines Undergraduate Research Symposium. In the 2024-2025 academic year, Roya will serve as a Mines Undergraduate Research Ambassador. Beyond her studies, she enjoys crocheting and cooking and is always excited to share her latest creations.
+    summary: Roya Akrami is a sophomore majoring in Electrical Engineering at the Colorado School of Mines. Her research efforts have been recognized and supported by the FIRST and SURF scholar awards, and she achieved 3rd place at the Spring 2024 Mines Undergraduate Research Symposium. During the 2024-2025 academic year, Roya will serve as a Mines Undergraduate Research Ambassador. Beyond her studies, she enjoys crocheting and cooking and is always excited to share her latest creations.
     
   - name: Raina Majumder
     headshot: rainamajumder.jpg
