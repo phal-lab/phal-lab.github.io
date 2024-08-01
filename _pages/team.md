@@ -20,13 +20,19 @@ grad_members:
     ms-phd: PhD Student
     dept: Department of Electrical Engineering
     summary: I am a first-year PhD student at the Colorado School of Mines, with a focus on modeling optical nano and microstructures. My academic journey commenced in Russia, specifically in Krasnoyarsk, where I earned both my bachelor's and master's degrees. Before joining the Colorado School of Mines, my research centered around examining collective lattice resonances in periodic structures and analyzing the magnetic response in individual spherical nanoantennas. Currently, my research interests lie in the realm of optical modeling, where I strive to contribute to the progress of this fascinating field. Beyond the lab, I relish exploring the great outdoors and its stunning landscapes, and I have a deep passion for astronomy and photography.
+    - name: Viviana Arrunategui Norvick
+    headshot: vivianaicon (1).png
+    ms-phd: PhD Student
+    dept: Department of Electrical Engineering
+    linkedin-user: viviana-arrunategui
+    summary: Viviana is a PhD student at the Colorado School of Mines. She is a recipient of the Clare Boothe Luce Fellowship and the Gates Millennium Scholarship. She earned her B.S. in Electrical Engineering from Brown University and her M.S. in Electrical Engineering with a focus in photonics from the University of California, Santa Barbara. Her research at UCSB focused on high-speed optical communication systems for data center applications. Outside the lab, Viviana enjoys reading and hiking with her dog.
 undergrad_members:
   - name: Roya Akrami
     headshot: royaakrami (1).jpg
     ms-phd: Undergraduate Student
     dept: Department of Electrical Engineering
     linkedin-user: roya-akrami-021113246
-    summary: Roya Akrami is a rising sophomore pursuing an undergraduate degree in Electrical Engineering. She is a recipient of the FIRST scholar award and the SURF scholar award from the Colorado School of Mines, which support her involvement in research projects. Recently, Roya achieved 3rd place presenting at the Mines' Spring 2024 Undergraduate Research Symposium. Outside of her academic work, she enjoys crocheting and cooking and is always excited to share her latest creations.
+    summary: Roya Akrami is a sophomore majoring in Electrical Engineering at the Colorado School of Mines. Her research efforts have been recognized and supported by the FIRST and SURF scholar awards, and she achieved 3rd place at the Spring 2024 Mines Undergraduate Research Symposium. In the 2024-2025 academic year, Roya will serve as a Mines Undergraduate Research Ambassador. Beyond her studies, she enjoys crocheting and cooking and is always excited to share her latest creations.
     
   - name: Raina Majumder
     headshot: rainamajumder.jpg
