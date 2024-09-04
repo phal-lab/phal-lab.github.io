@@ -36,6 +36,8 @@ The mid-infrared (mid-IR) region of the electromagnetic spectrum (2–20 μm) ha
 Our research projects are dynamic and continually evolving. Each project will involve the concurrent development of custom optical microscopes and innovative computational reconstruction frameworks. These frameworks will utilize physics-based models along with statistical learning theory tools. The ultimate goal is to create holistic optical solutions for applications in medical and space.
 
 ## Current Projects ##
+
+- title: test
 <!-- 
     Variable Explanations 
     - Image should just be the file name and placed in the research/past-projects folder
