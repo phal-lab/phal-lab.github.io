@@ -4,6 +4,11 @@ title:
 permalink: /research/
 current-projects:
 ---
+
+- title: MIRACLE – NASA PICASSO
+  image: NASA.png
+  link: https://www1.grc.nasa.gov/space/pesto/outreach/news-and-announcements/
+  summary: Our project, the Mid-InfraRed AdvanCed Life-detection Explorer (MIRACLE), is part of NASA’s PICASSO program. We are developing a mid-infrared imager with space flight capability, a technology that could uncover prebiotic chemistry and provide critical insights into the evolutionary dynamics of potentially habitable planetary bodies.
 <!-- 
     IF YOU START PUBLISHING CURRENT PROJECTS, YOU NEED TO UNCOMMENT "## Current Projects ##" BELOW. (Can't run if statement outside of a liquid for loop.)
 
@@ -36,11 +41,6 @@ The mid-infrared (mid-IR) region of the electromagnetic spectrum (2–20 μm) ha
 Our research projects are dynamic and continually evolving. Each project will involve the concurrent development of custom optical microscopes and innovative computational reconstruction frameworks. These frameworks will utilize physics-based models along with statistical learning theory tools. The ultimate goal is to create holistic optical solutions for applications in medical and space.
 
 ## Current Projects ##
-
-- title: MIRACLE – NASA PICASSO
-  image: NASA.png
-  link: https://www1.grc.nasa.gov/space/pesto/outreach/news-and-announcements/
-  summary: Our project, the Mid-InfraRed AdvanCed Life-detection Explorer (MIRACLE), is part of NASA’s PICASSO program. We are developing a mid-infrared imager with space flight capability, a technology that could uncover prebiotic chemistry and provide critical insights into the evolutionary dynamics of potentially habitable planetary bodies.
 <!-- 
     Variable Explanations 
     - Image should just be the file name and placed in the research/past-projects folder
