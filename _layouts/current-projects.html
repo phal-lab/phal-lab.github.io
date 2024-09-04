@@ -1,1 +1,111 @@
+---
+layout: default
+---
 
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+    .grid-image {
+        padding: 20px;
+        font-size: 22px;
+        width: 400px;
+        text-align: center;
+        position: relative;
+    }
+    .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .25s ease;
+        background-color: #81848a;
+    }
+    .grid-image:hover .overlay {
+        opacity: 0.8;
+    }
+    .text {
+        opacity: 1;
+        color: white;
+        position: absolute;
+        font-size: 25px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    @media only screen and (max-device-width: 480px) {
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            padding: 10px;
+        }
+        .grid-image {
+            grid-column-start: 1;  
+            grid-row-start: 1;  
+            margin-left: 10px;
+            padding: 5px;
+            font-size: 30px;
+            width: 300px;
+        }
+        .grid-text {
+            grid-column-start: 1;  
+            grid-row-start: 2;  
+            padding: 0px;
+            font-size: 16px;
+            text-align: left;
+            width: 100%;
+        }
+        .title-padding {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+</style>
+
+<article class="current-projects">
+    <div class="title-padding">
+        <h2>Current Projects</h2>
+    </div>
+    {% for project in page.projects %}
+        <div class="title-padding">
+            <h3>{{project.title}}</h3>
+        </div>
+        <div class="grid-container">
+            <div class="grid-image">
+                <img loading="lazy" src="{{site.baseurl}}/research/past-projects/{{project.image}}" alt="Research Topic">
+                <a href="{project.link}" target="_blank">
+                    <div class="overlay">
+                        <div class="text">
+                        Click to Read More 
+                        </div>
+                    </div>  
+                </a>
+            </div>  
+            <div class="grid-item">
+                {{project.summary}}
+            </div>
+        </div>
+    {% endfor %}
+    
+</article>
