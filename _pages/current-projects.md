@@ -1,5 +1,5 @@
 ---
-layout: past-projects
+layout: current-projects
 permalink: /research/current-projects
 projects:
   - title: MIRACLE – NASA PICASSO
