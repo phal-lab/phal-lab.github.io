@@ -27,11 +27,11 @@ grad_members:
     linkedin-user: viviana-arrunategui
     summary: Viviana is a PhD student at the Colorado School of Mines. She is a recipient of the Clare Boothe Luce Fellowship and the Gates Millennium Scholarship. She earned her B.S. in Electrical Engineering from Brown University and her M.S. in Electrical Engineering with a focus in photonics from the University of California, Santa Barbara. Her research at UCSB focused on high-speed optical communication systems for data center applications. Outside the lab, Viviana enjoys reading and hiking with her dog.
   - name: Owen Myers
-    headshot: owenmyers2.jpg
+    headshot: headshot highres (4).png
     ms-phd: Master's Student
     dept: Department of Electrical Engineering
     linkedin-user: owen-myers-409696240
-    summary: 
+    summary: Owen Myers is a first-year master's student at the Colorado School of Mines, concurrently completing his undergraduate degree in Engineering Physics. He previously worked in undergraduate research under Dr. Phal, focusing on calculating an imaging system's modulation transfer function. His research interests lie in advancing imaging technologies and applying his skills to innovative physics and electrical engineering projects. Outside the lab, Owen enjoys hiking, skiing, and spending time outdoors with friends.
 undergrad_members:
   - name: Roya Akrami
     headshot: royaakrami (1).jpg
