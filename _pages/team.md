@@ -19,7 +19,7 @@ grad_members:
     headshot: antonutiushev.jpg
     ms-phd: PhD Student
     dept: Department of Electrical Engineering
-    summary: I am a first-year PhD student at the Colorado School of Mines, with a focus on modeling optical nano and microstructures. My academic journey commenced in Russia, specifically in Krasnoyarsk, where I earned both my bachelor's and master's degrees. Before joining the Colorado School of Mines, my research centered around examining collective lattice resonances in periodic structures and analyzing the magnetic response in individual spherical nanoantennas. Currently, my research interests lie in the realm of optical modeling, where I strive to contribute to the progress of this fascinating field. Beyond the lab, I relish exploring the great outdoors and its stunning landscapes, and I have a deep passion for astronomy and photography.
+    summary: Anton Utiushev is a first-year Ph.D. student at the Colorado School of Mines, specializing in modeling optical nano- and microstructures. He began his academic journey in Krasnoyarsk, Russia, where he earned both his bachelor’s and master’s degrees. Prior to joining Mines, his research focused on investigating collective lattice resonances in periodic structures and analyzing the magnetic response of individual spherical nanoantennas. Currently, his research interests are centered on optical modeling, where he aims to make significant contributions to advancing the field. Outside the lab, he enjoys exploring the outdoors and has a deep passion for astronomy and photography.
   - name: Viviana Arrunategui Norvick
     headshot: vivianaicon (2).png
     ms-phd: PhD Student
