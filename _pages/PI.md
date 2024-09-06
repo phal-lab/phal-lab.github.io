@@ -11,17 +11,9 @@ faculty: https://electrical.mines.edu/project/phal-yamuna/
 email: yphal [at] mines [dot] edu
 office: 330D Brown Hall <br> 1610 Illinois St. <br> Golden, CO 80401
 cv: CV-Phal.pdf
-education:
-    - Ph.D. in Electrical and Computer Engineering, University of Illinois at Urbana-Champaign
-    - M.S. in Electrical Engineering, California Institute of Technology
-    - B.Tech. in Electrical Engineering, Indian Institute of Technology Roorkee
-work-experience:
-    - <b>Institutet for Rymdfysik (IRFU)</b>, Uppsala Sweden <br>Analog Research Design & EMC Engineer
-    - <b>NASA Jet Propulsion Laboratory (JPL)</b>, Pasadena, CA, USA <br>Graduate Fellow, Water and Carbon Cycles Group
-    - <b>Finisar Malaysia Pvt. Ltd.</b>, Ipoh, Malaysia <br>Failure Analysis Engineer, Quality Analysis Department
 ---
 
 <!--- Profile Headshot must be in team folder!!---->
-I am excited to begin my journey as an Assistant Professor at the Colorado School of Mines in the Department of Electrical Engineering starting this Fall. I am actively seeking motivated graduate students to join my research team. If you have a passion for interdisciplinary research that merges engineering, optics, and data science to advance biomedical applications, please feel free to reach out at yphal [at] mines [dot] edu! 
+Dr. Yamuna Phal is an Assistant Professor of Electrical Engineering at the Colorado School of Mines, holding a Ph.D. from the University of Illinois at Urbana-Champaign (UIUC). Before pursuing her doctoral studies, she gained industry experience as an analog research engineer at Finisar (now part of II-VI Inc.) and the Swedish Institute of Space Physics. Dr. Phal also holds a B.Tech. from the Indian Institute of Technology Roorkee (IIT-R) and an M.S. in Electrical Engineering from the California Institute of Technology (Caltech), where she was awarded the prestigious Jet Propulsion Laboratory (JPL) Fellowship. Dr. Phal’s groundbreaking work has garnered recognition through various scientific awards and publications, including a patent for VCD imaging. Her research has been prominently featured on the covers of Analytical Chemistry and The Journal of Physical Chemistry C.
 
-Before pursuing my doctorate in Electrical Engineering at UIUC, I gained industry experience as an analog design engineer at Finisar and the Swedish Institute of Space Physics. My earlier research centered on developing instrumentation for space applications, and now, I am focusing on the creation of optical tools for diagnostic purposes. 
+In addition to her research achievements, Dr. Phal is passionate about teaching. She has been honored with several teaching awards, including the Harold Olsen Award for undergraduate teaching and the E. A. Reid Fellowship for excellence in engineering education. Her contributions have also earned her prestigious accolades such as the President of India Award, recognition as a MIT Electrical Engineering and Computer Sciences Rising Star, and the Cadence Women in Technology Scholarship.
