@@ -1,6 +1,6 @@
 ---
-layout: personal
-permalink: /personal/
+layout: gallery
+permalink: /gallery/
 ---
 
 Welcome to my personal page! As an electrical engineer with a deep fascination for space, I enjoy exploring the world around me. My hobbies include traveling, hiking, photography, and running. Recently, I have also taken up lead climbing. In addition to my academic and professional pursuits, I have a couple fun achievements to share:
