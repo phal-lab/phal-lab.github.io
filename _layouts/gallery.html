@@ -1,237 +1,452 @@
----
-layout: default
----
+--- 
 
-<style>
-  /* Grid of images */
-  .grid-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-  }
+layout: default 
 
-  .grid-item {
-    flex: 1 1 30%;
-    max-width: 30%;
-  }
+--- 
 
-  .grid-item img {
-    width: 100%;
-    height: auto;
-    cursor: pointer;
-  }
+  
 
-  /* Responsive grid for smaller screens */
-  @media (max-width: 768px) {
-    .grid-item {
-      flex: 1 1 45%; /* Two images per row on medium screens */
-      max-width: 45%;
-    }
-  }
+<style> 
 
-  @media (max-width: 480px) {
-    .grid-item {
-      flex: 1 1 100%; /* One image per row on small screens */
-      max-width: 100%;
-    }
-  }
+  /* Grid of images */ 
 
-  /* Slideshow container (hidden by default) */
-  .lightbox-container {
-    display: none;
-    position: fixed;
-    z-index: 10;
-    padding-top: 60px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.9);
-  }
+  .grid-container { 
 
-  .lightbox-container img {
-    margin: auto;
-    /* display: block; */
-    max-width: 80%;
-    max-height: 80%;
-  }
+    display: flex; 
 
-  /* Adjust slideshow image size for smaller screens */
-  @media (max-width: 480px) {
-    .lightbox-container img {
-      max-width: 90%; /* Make images slightly smaller for mobile */
-      max-height: 70%;
-    }
-  }
+    flex-wrap: wrap; 
 
-  /* Close button */
-  .close {
-    position: absolute;
-    top: 20px;
-    right: 35px;
-    color: white;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
-  }
+    gap: 10px; 
 
-  /* Navigation arrows */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%; /* Center vertically */
-    transform: translateY(-50%); /* Adjust position to fully center */
-    width: auto;
-    padding: 16px;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    user-select: none;
-    transition: 0.6s ease;
-  }
+    justify-content: center; 
 
-  .prev {
-    left: 20px;
-  }
+  } 
 
-  .next {
-    right: 20px;
-  }
+  
 
-  /* Responsive arrow size for mobile */
-  @media (max-width: 480px) {
-    .prev, .next {
-      font-size: 16px; /* Smaller arrows for mobile */
-      padding: 12px;
-    }
+  .grid-item { 
 
-    .prev{
-      left: 10px;
-    }
+    flex: 1 1 30%; 
 
-    .next{
-      right: 10px;
-    }
+    max-width: 30%; 
 
-  }
+  } 
 
-  /* Caption and entry text */
-  .entry {
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
+  
 
-  /* Responsive caption text */
-  @media (max-width: 480px) {
-    .entry {
-      font-size: 16px; /* Slightly smaller caption text for mobile */
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-  }
+  .grid-item img { 
 
-  /* Fade effect for the slideshow */
-  .fade {
-    animation-name: fade;
-    animation-duration: 0.5s;
-  }
+    width: 100%; 
 
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-</style>
+    height: auto; 
 
-<div class="entry">
-  {{ content }}
-  <hr style="opacity: 0.2;">
-</div>
+    cursor: pointer; 
 
-<div class="grid-container">
-  <div class="grid-item">
-    <img src="DSC_1400.jpg" onclick="openLightbox(1)">
-  </div>
-  <div class="grid-item">
-    <img src="DSC_1712.jpg" onclick="openLightbox(2)">
-  </div>
-  <div class="grid-item">
-    <img src="DSC_1567.jpg" onclick="openLightbox(3)">
-  </div>
-  <div class="grid-item">
-    <img src="DSC_1533.jpg" onclick="openLightbox(4)">
-  </div>
-  <div class="grid-item">
-    <img src="DSC_2884.jpg" onclick="openLightbox(5)">
-  </div>
-  <div class="grid-item">
-    <img src="DSC_2968.jpg" onclick="openLightbox(6)">
-  </div>
-</div>
+  } 
 
+  
 
-<div id="lightbox" class="lightbox-container">
-  <span class="close" onclick="closeLightbox()">&times;</span>
+  /* Responsive grid for smaller screens */ 
 
-  <div class="slides fade">
-    <img src="DSC_1400.jpg">
-  </div>
+  @media (max-width: 768px) { 
 
-  <div class="slides fade">
-    <img src="DSC_1712.jpg">
-  </div>
+    .grid-item { 
 
-  <div class="slides fade">
-    <img src="DSC_1567.jpg">
-  </div>
+      flex: 1 1 45%; /* Two images per row on medium screens */ 
 
-  <div class="slides fade">
-    <img src="DSC_1533.jpg">
-  </div>
+      max-width: 45%; 
 
-  <div class="slides fade">
-    <img src="DSC_2884.jpg">
-  </div>
+    } 
 
-  <div class="slides fade">
-    <img src="DSC_2968.jpg">
-  </div>
+  } 
 
- 
-  <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-  <a class="next" onclick="changeSlide(1)">&#10095;</a>
-</div>
+  
 
-<script>
-  let slideIndex = 1;
+  @media (max-width: 480px) { 
 
-  function openLightbox(n) {
-    document.getElementById('lightbox').style.display = 'block';
-    showSlides(slideIndex = n);
-  }
+    .grid-item { 
 
-  function closeLightbox() {
-    document.getElementById('lightbox').style.display = 'none';
-  }
+      flex: 1 1 100%; /* One image per row on small screens */ 
 
-  function changeSlide(n) {
-    showSlides(slideIndex += n);
-  }
+      max-width: 100%; 
 
-  function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("slides");
+    } 
 
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
+  } 
 
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
+  
 
-    slides[slideIndex-1].style.display = "block";
-  }
-</script>
+  /* Slideshow container (hidden by default) */ 
+
+  .lightbox-container { 
+
+    display: none; 
+
+    position: fixed; 
+
+    z-index: 10; 
+
+    padding-top: 60px; 
+
+    left: 0; 
+
+    top: 0; 
+
+    width: 100%; 
+
+    height: 100%; 
+
+    overflow: auto; 
+
+    background-color: rgba(0, 0, 0, 0.9); 
+
+  } 
+
+  
+
+  .lightbox-container img { 
+
+    margin: auto; 
+
+    display: block; 
+
+    max-width: 80%; 
+
+    max-height: 80%; 
+
+  } 
+
+  
+
+  /* Adjust slideshow image size for smaller screens */ 
+
+  @media (max-width: 480px) { 
+
+    .lightbox-container img { 
+
+      max-width: 90%; /* Make images slightly smaller for mobile */ 
+
+      max-height: 70%; 
+
+    } 
+
+  } 
+
+  
+
+  /* Close button */ 
+
+  .close { 
+
+    position: absolute; 
+
+    top: 20px; 
+
+    right: 35px; 
+
+    color: white; 
+
+    font-size: 40px; 
+
+    font-weight: bold; 
+
+    cursor: pointer; 
+
+  } 
+
+  
+
+  /* Navigation arrows */ 
+
+  .prev, .next { 
+
+    cursor: pointer; 
+
+    position: absolute; 
+
+    top: 50%; 
+
+    width: auto; 
+
+    padding: 16px; 
+
+    color: white; 
+
+    font-size: 20px; 
+
+    font-weight: bold; 
+
+    user-select: none; 
+
+    transition: 0.6s ease; 
+
+  } 
+
+  
+
+  .prev { 
+
+    left: 10px; 
+
+  } 
+
+  
+
+  .next { 
+
+    right: 10px; 
+
+  } 
+
+  
+
+  /* Responsive arrow size for mobile */ 
+
+  @media (max-width: 480px) { 
+
+    .prev, .next { 
+
+      font-size: 16px; /* Smaller arrows for mobile */ 
+
+      padding: 12px; 
+
+    } 
+
+  } 
+
+  
+
+  /* Caption and entry text */ 
+
+  .entry { 
+
+    text-align: center; 
+
+    font-size: 18px; 
+
+    margin-bottom: 20px; 
+
+  } 
+
+  
+
+  /* Responsive caption text */ 
+
+  @media (max-width: 480px) { 
+
+    .entry { 
+
+      font-size: 16px; /* Slightly smaller caption text for mobile */ 
+
+      padding-left: 10px; 
+
+      padding-right: 10px; 
+
+    } 
+
+  } 
+
+  
+
+  /* Fade effect for the slideshow */ 
+
+  .fade { 
+
+    animation-name: fade; 
+
+    animation-duration: 0.5s; 
+
+  } 
+
+  
+
+  @keyframes fade { 
+
+    from {opacity: .4} 
+
+    to {opacity: 1} 
+
+  } 
+
+</style> 
+
+  
+
+<div class="entry"> 
+
+  {{ content }} 
+
+  <hr style="opacity: 0.2;"> 
+
+</div> 
+
+  
+
+<div class="grid-container"> 
+
+  <div class="grid-item"> 
+
+    <img src="DSC_1400.jpg" onclick="openLightbox(1)"> 
+
+  </div> 
+
+  <div class="grid-item"> 
+
+    <img src="DSC_1712.jpg" onclick="openLightbox(2)"> 
+
+  </div> 
+
+  <div class="grid-item"> 
+
+    <img src="DSC_1567.jpg" onclick="openLightbox(3)"> 
+
+  </div> 
+
+  <div class="grid-item"> 
+
+    <img src="DSC_1533.jpg" onclick="openLightbox(4)"> 
+
+  </div> 
+
+  <div class="grid-item"> 
+
+    <img src="DSC_2884.jpg" onclick="openLightbox(5)"> 
+
+  </div> 
+
+  <div class="grid-item"> 
+
+    <img src="DSC_2968.jpg" onclick="openLightbox(6)"> 
+
+  </div> 
+
+</div> 
+
+  
+
+  
+
+<div id="lightbox" class="lightbox-container"> 
+
+  <span class="close" onclick="closeLightbox()">&times;</span> 
+
+  
+
+  <div class="slides fade"> 
+
+    <img src="DSC_1400.jpg"> 
+
+  </div> 
+
+  
+
+  <div class="slides fade"> 
+
+    <img src="DSC_1712.jpg"> 
+
+  </div> 
+
+  
+
+  <div class="slides fade"> 
+
+    <img src="DSC_1567.jpg"> 
+
+  </div> 
+
+  
+
+  <div class="slides fade"> 
+
+    <img src="DSC_1533.jpg"> 
+
+  </div> 
+
+  
+
+  <div class="slides fade"> 
+
+    <img src="DSC_2884.jpg"> 
+
+  </div> 
+
+  
+
+  <div class="slides fade"> 
+
+    <img src="DSC_2968.jpg"> 
+
+  </div> 
+
+  
+
+  
+
+  <a class="prev" onclick="changeSlide(-1)">&#10094;</a> 
+
+  <a class="next" onclick="changeSlide(1)">&#10095;</a> 
+
+</div> 
+
+  
+
+<script> 
+
+  let slideIndex = 1; 
+
+  
+
+  function openLightbox(n) { 
+
+    document.getElementById('lightbox').style.display = 'block'; 
+
+    showSlides(slideIndex = n); 
+
+  } 
+
+  
+
+  function closeLightbox() { 
+
+    document.getElementById('lightbox').style.display = 'none'; 
+
+  } 
+
+  
+
+  function changeSlide(n) { 
+
+    showSlides(slideIndex += n); 
+
+  } 
+
+  
+
+  function showSlides(n) { 
+
+    let i; 
+
+    let slides = document.getElementsByClassName("slides"); 
+
+  
+
+    if (n > slides.length) {slideIndex = 1} 
+
+    if (n < 1) {slideIndex = slides.length} 
+
+  
+
+    for (i = 0; i < slides.length; i++) { 
+
+      slides[i].style.display = "none"; 
+
+    } 
+
+  
+
+    slides[slideIndex-1].style.display = "block"; 
+
+  } 
+
+</script> 
 
