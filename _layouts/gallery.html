@@ -81,7 +81,8 @@ layout: default
   .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust position to fully center */
     width: auto;
     padding: 16px;
     color: white;
@@ -92,11 +93,11 @@ layout: default
   }
 
   .prev {
-    left: 10px;
+    left: 20px;
   }
 
   .next {
-    right: 10px;
+    right: 20px;
   }
 
   /* Responsive arrow size for mobile */
@@ -105,6 +106,15 @@ layout: default
       font-size: 16px; /* Smaller arrows for mobile */
       padding: 12px;
     }
+
+    .prev{
+      left: 10px;
+    }
+
+    .next{
+      right: 10px;
+    }
+
   }
 
   /* Caption and entry text */
