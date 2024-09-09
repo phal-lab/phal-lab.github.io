@@ -14,8 +14,7 @@ layout: default
     width: 100%;
     height: auto;
   }
-
-  /* The arrows */
+  
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -40,12 +39,12 @@ layout: default
     left: 0;
   }
 
-  /* On hover, add a background color to the arrows */
+  
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
 
-  /* Add a caption text */
+  
   .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -56,7 +55,7 @@ layout: default
     text-align: center;
   }
 
-  /* Responsive adjustments */
+ 
   @media only screen and (max-device-width: 480px) {
     .prev, .next {
       font-size: 12px;
@@ -92,7 +91,7 @@ layout: default
       <img src="DSC_2968.jpg" style="width:100%">
     </div>
 
-    <!-- Next and previous buttons -->
+    
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
   </div>
@@ -102,12 +101,12 @@ layout: default
   let slideIndex = 1;
   showSlides(slideIndex);
 
-  // Next/previous controls
+  
   function plusSlides(n) {
     showSlides(slideIndex += n);
   }
 
-  // Show the current slide
+  
   function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("slides");
