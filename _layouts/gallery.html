@@ -3,117 +3,169 @@ layout: default
 ---
 
 <style>
-  .slideshow-container {
-    position: relative;
-    max-width: 100%;
-    margin: auto;
+
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
   }
 
-  .slides {
-    display: none;
+  .grid-item {
+    flex: 1 1 30%;
+    max-width: 30%;
+  }
+
+  .grid-item img {
     width: 100%;
     height: auto;
+    cursor: pointer;
   }
+
   
+  .lightbox-container {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .lightbox-container img {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+ 
   .prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -22px;
     color: white;
+    font-size: 20px;
     font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+    transition: 0.6s ease;
   }
 
   .prev {
-    left: 0;
+    left: 10px;
   }
 
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-
-  
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
+  .next {
+    right: 10px;
   }
 
  
-  @media only screen and (max-device-width: 480px) {
-    .prev, .next {
-      font-size: 12px;
-      padding: 10px;
-    }
+  .fade {
+    animation-name: fade;
+    animation-duration: 0.5s;
   }
 
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 </style>
 
-<article class="gallery">
-  <div class="slideshow-container">
-    <div class="slides">
-      <img src="DSC_1400.jpg" style="width:100%">
-    </div>
 
-    <div class="slides">
-      <img src="DSC_1712.jpg" style="width:100%">
-    </div>
-
-    <div class="slides">
-      <img src="DSC_1567.jpg" style="width:100%">
-    </div>
-
-    <div class="slides">
-      <img src="DSC_1533.jpg" style="width:100%">
-    </div>
-
-    <div class="slides">
-      <img src="DSC_2884.jpg" style="width:100%">
-    </div>
-
-    <div class="slides">
-      <img src="DSC_2968.jpg" style="width:100%">
-    </div>
-
-    
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="DSC_1400.jpg" onclick="openLightbox(1)">
   </div>
-</article>
+  <div class="grid-item">
+    <img src="DSC_1712.jpg" onclick="openLightbox(2)">
+  </div>
+  <div class="grid-item">
+    <img src="DSC_1567.jpg" onclick="openLightbox(3)">
+  </div>
+  <div class="grid-item">
+    <img src="DSC_1533.jpg" onclick="openLightbox(4)">
+  </div>
+  <div class="grid-item">
+    <img src="DSC_2884.jpg" onclick="openLightbox(5)">
+  </div>
+  <div class="grid-item">
+    <img src="DSC_2968.jpg" onclick="openLightbox(6)">
+  </div>
+</div>
+
+
+<div id="lightbox" class="lightbox-container">
+  <span class="close" onclick="closeLightbox()">&times;</span>
+
+  <div class="slides fade">
+    <img src="DSC_1400.jpg">
+  </div>
+
+  <div class="slides fade">
+    <img src="DSC_1712.jpg">
+  </div>
+
+  <div class="slides fade">
+    <img src="DSC_1567.jpg">
+  </div>
+
+  <div class="slides fade">
+    <img src="DSC_1533.jpg">
+  </div>
+
+  <div class="slides fade">
+    <img src="DSC_2884.jpg">
+  </div>
+
+  <div class="slides fade">
+    <img src="DSC_2968.jpg">
+  </div>
+
+ 
+  <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+  <a class="next" onclick="changeSlide(1)">&#10095;</a>
+</div>
 
 <script>
   let slideIndex = 1;
-  showSlides(slideIndex);
 
-  
-  function plusSlides(n) {
+  function openLightbox(n) {
+    document.getElementById('lightbox').style.display = 'block';
+    showSlides(slideIndex = n);
+  }
+
+  function closeLightbox() {
+    document.getElementById('lightbox').style.display = 'none';
+  }
+
+  function changeSlide(n) {
     showSlides(slideIndex += n);
   }
 
-  
   function showSlides(n) {
     let i;
     let slides = document.getElementsByClassName("slides");
 
     if (n > slides.length) {slideIndex = 1}
     if (n < 1) {slideIndex = slides.length}
-    
+
     for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
