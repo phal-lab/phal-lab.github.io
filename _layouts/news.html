@@ -84,6 +84,9 @@ layout: default
                         {% else %}
                             <a href="{{post.url}}" class="button"><b>Read More</b></a>
                         {% endif %}
+                        {% if post.title contains "NASA" %}
+                            <a href="/news-highlights" class="button"><b>News Highlights</b></a>
+                        {% endif %}
                 </div>
             </div>
         {% endif %}
