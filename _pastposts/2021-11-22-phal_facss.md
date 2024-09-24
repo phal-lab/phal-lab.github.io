@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pastpost
 title: "PhD Candidate Yamuna Phal wins 2021 FACSS SciX Conference Poster Award"
 tags: news
 image: 405170.jpg
