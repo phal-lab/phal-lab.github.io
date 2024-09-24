@@ -84,12 +84,23 @@ layout: default
                         {% else %}
                             <a href="{{post.url}}" class="button"><b>Read More</b></a>
                         {% endif %}
-                        {% if post.title contains "NASA" %}
+                        {% if post.title contains "Dr. Phal Awarded NASA Grant for Innovative Chiroptical Imager" %}
                             <a href="https://www.linkedin.com/pulse/mines-professor-awarded-nasa-grant-innovative-imager-mines-5duxc/" class="button"><b>News Highlights</b></a>
                         {% endif %}
                 </div>
             </div>
         {% endif %}
     {% endfor %}
+          <div class="grid-container">
+    <div class="grid-image">
+        <a href="{{site.baseurl}}/past-news/" target="_blank">
+            <div class="overlay">
+                <div class="text">
+                View Past News
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
   </div>
 </article>
