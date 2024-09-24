@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pastpost
 title: "Phal represents UIUC at 2021 MIT EECS Rising Stars workshop"
 tags: news
 image: yphal.png
