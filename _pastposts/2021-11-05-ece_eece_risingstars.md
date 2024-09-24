@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pastpost
 title: "ECE PhD students among top researchers invited to 2021 MIT EECS Rising Stars workshop"
 tags: news
 image: eecs_21.jpg
