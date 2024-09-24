@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: pastpost
 title: "ECE graduate student Phal's research featured on journal cover for a third time"
 tags: news
 image: Picture1.png
