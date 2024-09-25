@@ -70,7 +70,8 @@ layout: default
 
 <article class="news">
   <div class="entry">
-    {% for pastpost in site.pastpost %}
+    {% assign pastposts = site.pages | where_exp: "post", "post.path contains '_pastposts'" %}
+    {% for pastpost in pastposts %}
         {% if pastpost.tags contains "news" %}
             <div class="grid-container">
                 <div class="grid-image">
@@ -79,7 +80,7 @@ layout: default
                 <div class="grid-text">
                     <h2>{{pastpost.title}}</h2><hr>
                     {{pastpost.excerpt}}
-                        {% if pastpost.external_link != null %}
+                        {% if pastpost.external_link %}
                             <a href="{{pastpost.external_link}}" target="_blank" class="button"><b>Read More</b></a>
                         {% else %}
                             <a href="{{pastpost.url}}" class="button"><b>Read More</b></a>
