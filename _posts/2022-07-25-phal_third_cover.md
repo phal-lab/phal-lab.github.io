@@ -1,7 +1,7 @@
 ---
-layout: pastpost
+layout: post
 title: "ECE graduate student Phal's research featured on journal cover for a third time"
-tags: news
+tags: pastnews
 image: Picture1.png
 external_link: https://ece.illinois.edu/newsroom/news/50084
 excerpt_separator: <!--more-->
