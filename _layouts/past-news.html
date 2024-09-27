@@ -71,7 +71,7 @@ layout: default
 <article class="news">
   <div class="entry">
     {% for post in site.posts %}
-        {% if post.tags contains "news" %}
+        {% if post.tags contains "pastnews" %}
             <div class="grid-container">
                 <div class="grid-image">
                     <img loading="lazy" src="{{post.image}}" alt="Article Image">
