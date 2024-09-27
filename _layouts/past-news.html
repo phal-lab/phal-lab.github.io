@@ -70,27 +70,25 @@ layout: default
 
 <article class="news">
   <div class="entry">
-    {% assign pastposts = site.pages | where_exp: "post", "post.path contains '_pastposts'" %}
-    {% for pastpost in pastposts %}
-        {% if pastpost.tags contains "news" %}
+    {% for post in site.posts %}
+        {% if post.tags contains "news" %}
             <div class="grid-container">
                 <div class="grid-image">
-                    <img loading="lazy" src="{{pastpost.image}}" alt="Article Image">
+                    <img loading="lazy" src="{{post.image}}" alt="Article Image">
                 </div>
                 <div class="grid-text">
-                    <h2>{{pastpost.title}}</h2><hr>
-                    {{pastpost.excerpt}}
-                        {% if pastpost.external_link %}
-                            <a href="{{pastpost.external_link}}" target="_blank" class="button"><b>Read More</b></a>
+                    <h2>{{post.title}}</h2><hr>
+                    {{post.excerpt}}
+                        {% if post.external_link != null %}
+                            <a href="{{post.external_link}}" target="_blank" class="button"><b>Read More</b></a>
                         {% else %}
-                            <a href="{{pastpost.url}}" class="button"><b>Read More</b></a>
+                            <a href="{{post.url}}" class="button"><b>Read More</b></a>
                         {% endif %}
-                        {% if pastpost.title contains "NASA" %}
+                        {% if post.title contains "Dr. Phal Awarded NASA Grant for Innovative Chiroptical Imager" %}
                             <a href="https://www.linkedin.com/pulse/mines-professor-awarded-nasa-grant-innovative-imager-mines-5duxc/" class="button"><b>News Highlights</b></a>
                         {% endif %}
                 </div>
             </div>
         {% endif %}
     {% endfor %}
-  </div>
 </article>
