@@ -1,7 +1,7 @@
 ---
-layout: pastpost
+layout: post
 title: "PhD Candidate Yamuna Phal wins 2021 FACSS SciX Conference Poster Award"
-tags: news
+tags: pastnews
 image: 405170.jpg
 external_link: https://ece.illinois.edu/newsroom/news/43433
 excerpt_separator: <!--more-->
