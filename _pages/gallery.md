@@ -10,4 +10,4 @@ Welcome to my personal page! As an electrical engineer with a deep fascination f
 <li>My National Geographic Traveller article on the Northern Lights, <a href="https://www.bootsnall.com/articles/seeing-the-northern-lights-lofoten-islands-norway.html" target = _blank>Seeing the Northern Lights: It's not as Easy as Driving North and Looking Up</a></li>
 </bl>
 
-Below are some places I've been to. 
+Below are some places I’ve been to. Some of my favs from all over the world are on <a href="https://www.flickr.com/photos/126646754@N04/" target = _blank>flickr</a>-
