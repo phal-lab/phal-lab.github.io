@@ -103,6 +103,12 @@ layout: default
         {{yamuna.title}}<br>
         {{yamuna.department}}<br><br>
         {{yamuna.content}}
+        <h3>Education</h3> 
+        <bl> 
+        {% for item in yamuna.education %} 
+          <li>{{ item }}</li> 
+          {% endfor %} 
+        </bl> 
       </div>
     </div>
     <!-- Postdocs HTML -->
