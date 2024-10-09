@@ -11,6 +11,10 @@ faculty: https://electrical.mines.edu/project/phal-yamuna/
 email: yphal [at] mines [dot] edu
 office: 330D Brown Hall <br> 1610 Illinois St. <br> Golden, CO 80401
 cv: CV-Phal.pdf
+education:
+  - University of Illinois Urbana-Champaign (UIUC), Urbana, Ph.D in Electrical and Computer Engineering (ECE)
+  - California Institute of Technology (Caltech), Pasadena, M.S in Electrical Engineering (EE)
+  - Indian Institute of Technology (IIT) Roorkee, B.Tech. in Electrical Engineering (EE)
 ---
 
 <!--- Profile Headshot must be in team folder!!---->
