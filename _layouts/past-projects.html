@@ -94,20 +94,14 @@ layout: default
         <div class="grid-container">
             <div class="grid-image">
                 <img loading="lazy" src="{{site.baseurl}}/research/past-projects/{{project.image}}" alt="Research Topic">
-                <a href="{{site.baseurl}}/publications/{{project.link}}" target="_blank">
-                    {% if post.title contains "Density" %}
-                            <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JA027057"</a>
-                        {% endif %}
-                    {% if post.title contains "Juice" %}
-                            <a href="https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_launch_kit"</a>
-                        {% endif %}
+                <a href={project.link} target="_blank">
                     <div class="overlay">
                         <div class="text">
                         Click to Read More 
                         </div>
                     </div>  
                 </a>
-            </div>  
+            </div> 
             <div class="grid-item">
                 {{project.summary}}
             </div>
