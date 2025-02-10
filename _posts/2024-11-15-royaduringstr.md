@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Roya represents Mines Undergraduate Research Ambassadors at Council on Undergraduate Research"
-tags: past-news
+tags: news
 image: royaduringstr.png
 external_link: https://www.cur.org/cur-releases-2024-str-program-participants/
 excerpt_separator: <!--more-->
