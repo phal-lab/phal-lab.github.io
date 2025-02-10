@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Phal represents UIUC at 2021 MIT EECS Rising Stars workshop"
-tags: pastnews
+tags: past-news
 image: yphal.png
 external_link: https://beckman.illinois.edu/about/news/article/2021/10/25/phal-represents-uiuc-at-2021-mit-eecs-rising-stars-workshop
 excerpt_separator: <!--more-->
