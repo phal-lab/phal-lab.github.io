@@ -2,7 +2,7 @@
 layout: post
 title: "Dr. Phal receives $1 million NSF grant to advance pharmaceutical research"
 tags: past-news
-image: nsfgrantphal.jpg
+image: yamuna-phal-nsf-grant-241028-04 (1).jpg
 external_link: https://www.minesnewsroom.com/news/assistant-professor-yamuna-phal-receives-1-million-nsf-grant-advance-pharmaceutical-research
 excerpt_separator: <!--more-->
 ---
