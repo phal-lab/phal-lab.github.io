@@ -6,7 +6,6 @@ projects:
     image: Juice_launch_kit_cover_close-up.png
     link: https://www.esa.int/Science_Exploration/Space_Science/Juice/Juice_launch_kit
     summary:  Jupiter Icy moons Explorer (JUICE) Mission
-
   - title: Hydrogen Density Figure
     image: H-density.jpg
     link: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019JA027057 
