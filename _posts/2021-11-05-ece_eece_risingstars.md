@@ -2,7 +2,7 @@
 layout: post
 title: "ECE PhD students among top researchers invited to 2021 MIT EECS Rising Stars workshop"
 tags: pastnews
-image: eecs_21.jpeg
+image: eecs_21.jpg
 external_link: https://ece.illinois.edu/newsroom/news/rising-stars-2021
 excerpt_separator: <!--more-->
 ---
