@@ -32,6 +32,7 @@ grad_members:
     dept: Department of Electrical Engineering
     linkedin-user: owen-myers-409696240
     summary: Owen Myers is a first-year master's student at the Colorado School of Mines, concurrently completing his undergraduate degree in Engineering Physics. He previously worked in undergraduate research under Dr. Phal, focusing on calculating an imaging system's modulation transfer function. His research interests lie in advancing imaging technologies and applying his skills to innovative physics and electrical engineering projects. Outside the lab, Owen enjoys hiking, skiing, and spending time outdoors with friends.
+
 undergrad_members:
   - name: Roya Akrami
     headshot: royaakrami (1).jpg
