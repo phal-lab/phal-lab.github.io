@@ -38,7 +38,13 @@ undergrad_members:
     ms-phd: Undergraduate Student
     dept: Department of Electrical Engineering
     linkedin-user: roya-akrami-021113246
-    summary: Roya Akrami is a sophomore majoring in Electrical Engineering at the Colorado School of Mines. Her research efforts have been recognized and supported by the FIRST and SURF scholar awards, and she achieved 3rd place at the Spring 2024 Mines Undergraduate Research Symposium. During the 2024-2025 academic year, Roya will serve as a Mines Undergraduate Research Ambassador. Beyond her studies, she enjoys crocheting and cooking and is always excited to share her latest creations.
+    summary: Roya Akrami is a sophomore majoring in Electrical Engineering at the Colorado School of Mines. Her research efforts have been recognized and supported by the FIRST and SURF scholar awards, and she achieved 3rd place at the Spring 2024 Mines Undergraduate Research Symposium. This March, Roya will represent Mines as an Undergraduate Research Ambassador for the Council on Undergraduate Research at Capitol Hill. Beyond her studies, she enjoys crocheting and cooking and is always excited to share her latest creations.
+    - name: Brynn Aarestad
+    headshot: brynn.jpg
+    ms-phd: Undergraduate Student
+    dept: Department of Engineering Physics
+    linkedin-user: brynn-aarestad-121044329
+    summary: Brynn Aarestad is a first-year mines student planning to major in engineering physics. He joined Dr. Phal’s lab at the end of 2024 with a design-focused background with a professional certification in SolidWorks and hopes to gain more experience with the application of physical and electrical theory to experimental analysis. Outside of the lab, Brynn enjoys art, reading, astronomy and late nights playing board games with friends.
     
 ---
 <!-- To Use this page, copy and paste template below or an entry above to add a member and the website should auto update. Make sure the variable is nested within postdocs, undergrad_members or grad_members. Lab Alumni are added at the bottom.-->
