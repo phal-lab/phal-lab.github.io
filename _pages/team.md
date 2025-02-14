@@ -40,7 +40,7 @@ undergrad_members:
     linkedin-user: roya-akrami-021113246
     summary: Roya Akrami is a sophomore majoring in Electrical Engineering at the Colorado School of Mines. Her research efforts have been recognized and supported by the FIRST and SURF scholar awards, and she achieved 3rd place at the Spring 2024 Mines Undergraduate Research Symposium. This March, Roya will represent Mines as an Undergraduate Research Ambassador for the Council on Undergraduate Research at Capitol Hill. Beyond her studies, she enjoys crocheting and cooking and is always excited to share her latest creations.
   - name: Brynn Aarestad
-    headshot: brynn.jpg
+    headshot: brynn (1).jpg
     ms-phd: Undergraduate Student
     dept: Department of Engineering Physics
     linkedin-user: brynn-aarestad-121044329
