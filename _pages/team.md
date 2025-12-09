@@ -32,6 +32,12 @@ grad_members:
     dept: Department of Electrical Engineering
     linkedin-user: owen-myers-409696240
     summary: Owen Myers is a first-year master's student at the Colorado School of Mines, concurrently completing his undergraduate degree in Engineering Physics. He previously worked in undergraduate research under Dr. Phal, focusing on calculating an imaging system's modulation transfer function. His research interests lie in advancing imaging technologies and applying his skills to innovative physics and electrical engineering projects. Outside the lab, Owen enjoys hiking, skiing, and spending time outdoors with friends.
+  - name: Wyatt Morris
+    headshot: 
+    ms-phd: Master's Student
+    dept: 
+    linkedin-user:
+    summary:
 undergrad_members:
   - name: Roya Akrami
     headshot: royaakrami (1).jpg
@@ -45,6 +51,18 @@ undergrad_members:
     dept: Department of Engineering Physics
     linkedin-user: brynn-aarestad-121044329
     summary: Brynn Aarestad is a first-year mines student planning to major in engineering physics. He joined Dr. Phal’s lab at the end of 2024 with a design-focused background with a professional certification in SolidWorks and hopes to gain more experience with the application of physical and electrical theory to experimental analysis. Outside of the lab, Brynn enjoys art, reading, astronomy and late nights playing board games with friends.
+  - name: Colton
+    headshot:
+    ms-phd: Undergraduate Student
+    dept: 
+    linkedin-user: 
+    summary: 
+  - name: James Welcker
+    headshot:
+    ms-phd: Undergraduate Student
+    dept: Department of Electrical Engineering
+    linkedin-user: jameswelcker
+    summary: James Welcker is a second-year mines student majoring in Electrical Engineering. He has a background in computational modeling and engineering design, and hopes to get more learn more about the practical application of electromagnetic concepts and digital design. Outside of academics, James enjoys whitewater kayaking, rock climbing, backpacking, and skiing.
     
 ---
 <!-- To Use this page, copy and paste template below or an entry above to add a member and the website should auto update. Make sure the variable is nested within postdocs, undergrad_members or grad_members. Lab Alumni are added at the bottom.-->
