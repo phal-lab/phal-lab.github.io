@@ -4,6 +4,15 @@ title:
 permalink: /publications/
 featured_covers: covers.png
 all_publications_ieee:
+    - authors: V. Arrunategui Norvick, M. Le, E. Modesitt, O. Myers, R. Akrami, <b>Y. Phal</b>
+      title: "Rapid Vibrational Circular Dichroism Spectroscopy via Synchronized Photoelastic Modulator-Quantum Cascade Laser Integration"
+      journal_or_conf: ACS Measurement Science Au
+      journal_info:
+      year: 2025
+      pdf_src: 2025-research-paper.pdf
+      doi: 10.1021/acsmeasuresciau.5c00069
+      special_remarks:
+
     - authors: Y. Jeong, P.-H. Hsieh, <b>Y. Phal</b>, R. Bhargava, and J. Irudayaraj
       title: "Label-Free Monitoring of Coculture System Dynamics: Probing Probiotic and Cancer Cell Interactions via Infrared Spectroscopic Imaging"
       journal_or_conf: Analytical Chemistry

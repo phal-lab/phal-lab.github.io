@@ -51,14 +51,14 @@ undergrad_members:
     dept: Department of Engineering Physics
     linkedin-user: brynn-aarestad-121044329
     summary: Brynn Aarestad is a first-year mines student planning to major in engineering physics. He joined Dr. Phal’s lab at the end of 2024 with a design-focused background with a professional certification in SolidWorks and hopes to gain more experience with the application of physical and electrical theory to experimental analysis. Outside of the lab, Brynn enjoys art, reading, astronomy and late nights playing board games with friends.
-  - name: Colton
+  - name: Colton Tomanek
     headshot:
     ms-phd: Undergraduate Student
     dept: 
     linkedin-user: 
     summary: 
   - name: James Welcker
-    headshot:
+    headshot: jameswelcker.jpg  
     ms-phd: Undergraduate Student
     dept: Department of Electrical Engineering
     linkedin-user: jameswelcker
