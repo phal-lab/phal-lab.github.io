@@ -58,7 +58,7 @@ undergrad_members:
     linkedin-user: 
     summary: 
   - name: James Welcker
-    headshot: jameswelcker.jpg
+    headshot: jameswelcker.jpg  
     ms-phd: Undergraduate Student
     dept: Department of Electrical Engineering
     linkedin-user: jameswelcker
