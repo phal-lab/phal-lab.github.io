@@ -8,7 +8,7 @@ headshot: AAA_cropped_v2.png
 twitter: NomadPraju
 linkedin: yamunaphal3ab413aa
 faculty: https://electrical.mines.edu/project/phal-yamuna/
-email: yphal [at] mines [dot] edu
+email: yphal@mines.edu
 office: 330D Brown Hall <br> 1610 Illinois St. <br> Golden, CO 80401
 cv: CV-Phal.pdf
 education:
