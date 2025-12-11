@@ -35,7 +35,7 @@ grad_members:
   - name: Wyatt Morris
     headshot: wyattmorris.jpg
     ms-phd: Master's Student
-    dept: Electrical Engineering
+    dept: Department of Electrical Engineering
     linkedin-user:
     summary: Wyatt Morris is a first-year graduate student at the Colorado School of Mines in the Electrical Engineering department. He received his undergraduate degree from the Rose-Hulman Institute of Technology, where he double majored in Optical Engineering and Mechanical Engineering. Since then, Wyatt has started his career as a full-time engineer at BAE Systems, Space and Mission Systems (formerly Ball Aerospace), where he specializes in lidar systems, nonlinear optics, and performance modeling. His research interests include novel imaging and sensing techniques, specifically looking at the utilization of orbital angular momentum. Outside the lab, Wyatt enjoys pretty much anything in the mountains, like snowboarding, camping, and fishing.
 undergrad_members:
