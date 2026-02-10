@@ -13,12 +13,14 @@ Beyond my academic and professional pursuits, I also enjoy documenting the journ
         <img src="DSC_1327.jpg">
         <img src="DSC_1331.jpg">
         <img src="shared image (2).jpeg">
+        <img src="Image (1).jpeg">
     </div>
     <div class ="column">
         <img src="DSC_1334.jpg">
         <img src="DSC_1339.jpg">
         <img src="DSC_1354.jpg">
         <img src="shared image (5).jpeg">
+        <img src="Image.jpeg">
     </div>
     <div class="column">
         <img src="DSC_1365.jpg">
