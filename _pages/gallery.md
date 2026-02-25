@@ -14,6 +14,7 @@ Beyond my academic and professional pursuits, I also enjoy documenting the journ
         <img src="DSC_1331.jpg">
         <img src="shared image (2).jpeg">
         <img src="Image (1).jpeg">
+        <img src = "trip2.heic">
     </div>
     <div class ="column">
         <img src="DSC_1334.jpg">
@@ -21,11 +22,15 @@ Beyond my academic and professional pursuits, I also enjoy documenting the journ
         <img src="DSC_1354.jpg">
         <img src="shared image (5).jpeg">
         <img src="Image.jpeg">
+        <img src = "trip1.heic">
+        <img src = "trip3.heic">
     </div>
     <div class="column">
         <img src="DSC_1365.jpg">
         <img src="IMG_20250516_202521.jpeg">
         <img src="processed-4E5471FC-62DB-4AB4-8434-6A972C1DB975.jpeg">
+        <img src = "trip4.heic">
+        <img src = "trip5.heic">
     </div>
 </div>
 
