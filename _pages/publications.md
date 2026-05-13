@@ -9,7 +9,7 @@ all_publications_ieee:
       journal_or_conf: Analytical Chemistry
       journal_info:
       year: 2026
-      pdf_src: publications\transfer-matrix-framework--mid-ir-spectra (1).pdf
+      pdf_src: transfer-matrix-framework--mid-ir-spectra (1).pdf
       doi: 10.1021/acs.analchem.5c07726
       special_remarks:
 
