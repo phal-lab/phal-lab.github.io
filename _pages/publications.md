@@ -4,6 +4,15 @@ title:
 permalink: /publications/
 featured_covers: pub_cover.png
 all_publications_ieee:
+    - authors: M. Le, V. Arrunategui Norvick, L. Nafie, <b>Y. Phal</b>
+      title: Quantum Cascade Laser-Based Vibrational Circular Dichroism Imaging for Chiral Biosensing
+      journal_or_conf: Invited Paper, Annual Reviews of Analytical Chemistry
+      journal_info:
+      year: 2026
+      pdf_src:
+      doi: DOI:10.1146/annurev-anchem-071625-085942 
+      special_remarks:
+
     - authors: A. Utiushev, I. Rasskazov, <b>Y. Phal</b>
       title: Transfer-Matrix Framework for Modeling Mid-Infrared Vibrational Circular Dichroism Spectra
       journal_or_conf: Analytical Chemistry
