@@ -7,6 +7,4 @@ external_link: https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2
 excerpt_separator: <!--more-->
 ---
 
-I'm happy to announce that I have been awarded the 2nd best poster presentation in the Colorado School of Mines Undergraduate Research Symposium last Wednesday; it was amazing to share some of the bioimaging work I've been a part of over the past year!
-
-A huge thanks to Yamuna Phal, Michael Le, Owen Myers and Viviana Arrunategui Norvick for mentoring this project, as well as to Lakshmi Krishna and Ashley Weibel for organizing the symposium!
+Brynn Aarestad has been awarded the 2nd best poster presentation at the Colorado School of Mines' Undergraduate Research Symposium.
