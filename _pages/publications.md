@@ -2,8 +2,26 @@
 layout: publications
 title: 
 permalink: /publications/
-featured_covers: covers.png
+featured_covers: pub_cover.png
 all_publications_ieee:
+    - authors: A. Utiushev, I. Rasskazov, <b>Y. Phal</b>
+      title: "Transfer-Matrix Framework for Modeling Mid-Infrared Vibrational Circular Dichroism Spectra”
+      journal_or_conf: Analytical Chemistry
+      journal_info:
+      year: 2026
+      pdf_src: publications\transfer-matrix-framework--mid-ir-spectra (1).pdf
+      doi: 10.1021/acs.analchem.5c07726
+      special_remarks:
+
+    - authors: M. Le, O. Myers, J. Squier, <b>Y. Phal</b>
+      title: "Mid-Infrared Quantum Cascade Laser-based Structured Illumination Microscope”
+      journal_or_conf: Optics Letters
+      journal_info:
+      year: 2026
+      pdf_src: ol-51-10-2764 (1).pdf
+      doi: 10.1364/OL.583804
+      special_remarks:
+
     - authors: V. Arrunategui Norvick, M. Le, E. Modesitt, O. Myers, R. Akrami, <b>Y. Phal</b>
       title: "Rapid Vibrational Circular Dichroism Spectroscopy via Synchronized Photoelastic Modulator-Quantum Cascade Laser Integration"
       journal_or_conf: ACS Measurement Science Au
