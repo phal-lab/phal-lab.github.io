@@ -15,6 +15,12 @@ permalink: /teaching/
 ## Teaching Experience ##
 
 * Instructor <br>
+Digital Signal Processing (EENG-411), Spring 2026, Colorado School of Mines
+
+* Instructor <br>
+Digital Imaging (EENG-310), Spring 2025, Colorado School of Mines
+
+* Instructor <br>
 Digital Signal Processing (EENG-411), Spring 2025, Colorado School of Mines
 
 * Instructor <br>
