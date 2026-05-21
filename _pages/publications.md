@@ -9,7 +9,7 @@ all_publications_ieee:
       journal_or_conf: Invited Paper, Annual Reviews of Analytical Chemistry
       journal_info:
       year: 2026
-      pdf_src:
+      pdf_src: annurev-anchem-071625-085942.pdf
       doi: DOI:10.1146/annurev-anchem-071625-085942 
       special_remarks:
 
